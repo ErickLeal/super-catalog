@@ -1,6 +1,11 @@
 package category
 
 type Size struct {
+	ID   string `bson:"id" json:"id"`
+	Name string `bson:"name" json:"name"`
+}
+
+type SizeFlavor struct {
 	ID          string `bson:"id" json:"id"`
 	Name        string `bson:"name" json:"name"`
 	MaxFlavours int64  `bson:"max_flavours" json:"max_flavours"`
@@ -26,43 +31,39 @@ type Schedul struct {
 	Hours string `bson:"hours" json:"hours"`
 }
 
-type Category struct {
-	Type        string     `bson:"type" json:"type"`
-	ID          string     `bson:"_id,omitempty" json:"id"`
-	Name        string     `bson:"name" json:"name"`
-	Section     string     `bson:"section" json:"section"`
-	Description string     `bson:"description" json:"description"`
-	Culinary    string     `bson:"culinary" json:"culinary"`
-	Sizes       []Size     `bson:"sizes" json:"sizes"`
-	AskGroups   []AskGroup `bson:"ask_groups" json:"ask_groups"`
-	Schedul     []Schedul  `bson:"schedul" json:"schedul"`
-}
-
-type BaseCategory struct {
-	Type        string     `bson:"type" json:"type"`
-	ID          string     `bson:"_id,omitempty" json:"id"`
-	Name        string     `bson:"name" json:"name"`
-	Section     string     `bson:"section" json:"section"`
-	Description string     `bson:"description" json:"description"`
-	Culinary    string     `bson:"culinary" json:"culinary"`
-	Sizes       []Size     `bson:"sizes" json:"sizes"`
-	AskGroups   []AskGroup `bson:"ask_groups" json:"ask_groups"`
-	Schedul     []Schedul  `bson:"schedul" json:"schedul"`
-}
-
 type FoodsCategory struct {
-	BaseCategory
-	Culinary  string     `bson:"culinary" json:"culinary"`
-	Sizes     []Size     `bson:"sizes" json:"sizes"`
-	AskGroups []AskGroup `bson:"ask_groups" json:"ask_groups"`
+	Type        string     `bson:"type" json:"type"`
+	StoreId     string     `bson:"store_id" json:"store_id"`
+	ID          string     `bson:"_id,omitempty" json:"id"`
+	Name        string     `bson:"name" json:"name"`
+	Description string     `bson:"description" json:"description"`
+	Culinary    string     `bson:"culinary" json:"culinary"`
+	Sizes       []Size     `bson:"sizes" json:"sizes"`
+	AskGroups   []AskGroup `bson:"ask_groups" json:"ask_groups"`
+}
+
+type SlicedFoodsCategory struct {
+	Type        string       `bson:"type" json:"type"`
+	StoreId     string       `bson:"store_id" json:"store_id"`
+	ID          string       `bson:"_id,omitempty" json:"id"`
+	Name        string       `bson:"name" json:"name"`
+	Description string       `bson:"description" json:"description"`
+	Sizes       []SizeFlavor `bson:"sizes" json:"sizes"`
+	AskGroups   []AskGroup   `bson:"ask_groups" json:"ask_groups"`
 }
 
 type MaketCategory struct {
-	BaseCategory
-	Section string `bson:"section" json:"section"`
+	Type        string `bson:"type" json:"type"`
+	ID          string `bson:"_id,omitempty" json:"id"`
+	Name        string `bson:"name" json:"name"`
+	Section     string `bson:"section" json:"section"`
+	Description string `bson:"description" json:"description"`
 }
 
 type SchedulCategory struct {
-	BaseCategory
-	Schedul []Schedul `bson:"schedul" json:"schedul"`
+	Type        string    `bson:"type" json:"type"`
+	ID          string    `bson:"_id,omitempty" json:"id"`
+	Name        string    `bson:"name" json:"name"`
+	Description string    `bson:"description" json:"description"`
+	Schedul     []Schedul `bson:"schedul" json:"schedul"`
 }

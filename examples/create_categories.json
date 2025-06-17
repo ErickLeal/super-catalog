@@ -1,0 +1,117 @@
+[
+   {
+        "type":"MARKET",
+        "id": "1",
+        "status":1,
+        "name":"Paes",
+        "description":"padaria",
+        "section":"Mercearia"
+    },
+    {
+        "type":"SCHEDULED",
+        "id": "2",
+        "status":1,
+        "name": "Agendamento",
+        "schedul":[
+            {
+                "day":"MONDAY",
+                "hours":"08:30 - 17:30"
+            }
+        ]
+    },
+    {
+        "type":"FOODS",
+        "store_id": "store-id",
+        "id": "código do integrador",
+        "name":"Sanbubas frios",
+        "description":"eat fresh",
+        "status":1,
+        "culinary":"Sanbubas",
+        "sizes":[
+            {
+                "id":"código do integrador",
+                "name":"P"
+            },
+            {
+                "id":"código do integrador",
+                "name":"G"
+            }
+        ],
+        "ask_groups":[
+            { 
+                "id":"código do integrador",
+                "group":"Precisa de talher?",
+                "minimun_limit": 1,
+                "maximun_limit": 1,
+                "options":[
+                    {
+                        "id":"código do integrador",
+                        "name": "Não",
+                        "description":"Não",
+                        "value":0
+                    },
+                    {
+                        "id":"código do integrador",
+                        "name": "Sim",
+                        "description":"Sim",
+                        "value":10
+                    }
+                ]
+        },
+        {
+            "id":"código do integrador",
+            "group":"Deseja acompanhamento?",
+            "min_limit": 0,
+            "max_limit": 2,
+            "options": [
+                {
+                    "id":"código do integrador",
+                    "name": "Molho da casa",
+                    "description":"",
+                    "value":200
+                },
+                {
+                   "id":"código do integrador",
+                    "name": "Molho de pimenta",
+                    "description":"",
+                    "value":300
+                }
+            ]
+        }
+    ]
+    },
+    {
+        "type":"SLICED_FOODS",
+        "id": "código do integrador",
+        "name":"Pizza Pizzo",
+        "description":"",
+        "status":1,
+        "sizes":[
+            {
+                "id":"código do integrador",
+                "name":"MINI PIZZA",
+                "max_flavors":2
+            },
+            {
+                "id":"código do integrador",
+                "name":"SUPER PIZZA",
+                "max_flavors":4
+            }
+        ],
+        "ask_groups":[
+            {
+                "id":"código do integrador",
+                "name": "Escolha a Borda",
+                "order": 1,
+                "minimum_limit": 1,
+                "maximum_limit": 1,
+                "item": [
+                    {"id": "BORDA-TRADICIONAL", "name": "Borda Tradicional", "description": "", "value": 0},
+                    {"id": "BORDA-CHEDDAR", "name": "Borda de Cheddar", "description": "", "value": 500},
+                    {"id": "BORDA-CATUPIRY", "name": "Borda de Catupiry", "description": "", "value": 500}
+                ]
+            }
+        ]
+
+    }
+]
