@@ -7,45 +7,45 @@ import (
 )
 
 type ProductDetailRequest struct {
-	Name  string `json:"name"`
-	Value int64  `json:"value"`
+	Name  string `json:"name" validate:"required,max=100"`
+	Value int64  `json:"value" validate:"required,min=0"`
 }
 
 type AdditionalRequest struct {
-	ProductID string `json:"product_id"`
+	ProductID string `json:"product_id" validate:"required,max=50"`
 }
 
 type UnitRequest struct {
-	Name  string `json:"name"`
-	Value int64  `json:"value"`
+	Name  string `json:"name" validate:"required,max=100"`
+	Value int64  `json:"value" validate:"required,min=0"`
 }
 
 type BaseProductRequest struct {
-	CategoryID        string                 `json:"category_id"`
-	ID                string                 `json:"id"`
-	Name              string                 `json:"name"`
-	Description       string                 `json:"description"`
-	Value             int64                  `json:"value"`
-	InventoryQuantity int                    `json:"inventory_quantity"`
-	IsInventoryActive bool                   `json:"is_inventory_active"`
-	ProductDetails    []ProductDetailRequest `json:"product_details"`
+	CategoryID        string                 `json:"category_id" validate:"required,max=50"`
+	ID                string                 `json:"id" validate:"required,max=50"`
+	Name              string                 `json:"name" validate:"required,max=100"`
+	Description       string                 `json:"description" validate:"max=255"`
+	Value             int64                  `json:"value" validate:"required,min=0"`
+	InventoryQuantity int                    `json:"inventory_quantity" validate:"required,min=0"`
+	IsInventoryActive bool                   `json:"is_inventory_active" validate:"required"`
+	ProductDetails    []ProductDetailRequest `json:"product_details" validate:"dive"`
 }
 
 type ProductFoodsRequest struct {
 	BaseProductRequest
-	Tags        []string            `json:"tags"`
-	Adittionals []AdditionalRequest `json:"adittionals"`
+	Tags        []string            `json:"tags" validate:"required,dive,max=50"`
+	Adittionals []AdditionalRequest `json:"adittionals" validate:"dive"`
 }
 
 type ProductMarketRequest struct {
 	BaseProductRequest
-	EanCode string      `bson:"ean_code" json:"ean_code"`
-	Unit    UnitRequest `json:"unit"`
+	EanCode string      `bson:"ean_code" json:"ean_code" validate:"required,max=50"`
+	Unit    UnitRequest `json:"unit" validate:"required"`
 }
 
 type ProductScheduledRequest struct {
 	BaseProductRequest
-	FictionalField string `json:"fictional_field"`
+	FictionalField string `json:"fictional_field" validate:"required,max=100"`
 }
 
 func (r ProductDetailRequest) ToModel() product.ProductDetail {
