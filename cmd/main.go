@@ -10,5 +10,6 @@ func main() {
 	r := gin.Default()
 	r.POST("/products", handlers.CreateProductHandler)
 	r.POST("/categories", handlers.CreateCategoryHandler)
+	r.POST("/generate-products-file", handlers.GenerateProductsFileHandler)
 	r.Run(":8080")
 }

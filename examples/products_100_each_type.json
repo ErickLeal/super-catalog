@@ -1,0 +1,6402 @@
+[
+  {
+    "category_id": "2",
+    "id": "prod-001",
+    "name": "Agendamento de Sala 1",
+    "description": "Reserva de sala para reuniões 1",
+    "value": 20000,
+    "inventory_quantity": 1,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "sala",
+        "value": 101
+      },
+      {
+        "name": "andar",
+        "value": 1
+      }
+    ],
+    "fictional_field": "Agendamento especial 1"
+  },
+  {
+    "category_id": "2",
+    "id": "prod-002",
+    "name": "Agendamento de Sala 2",
+    "description": "Reserva de sala para reuniões 2",
+    "value": 25000,
+    "inventory_quantity": 2,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "sala",
+        "value": 102
+      },
+      {
+        "name": "andar",
+        "value": 1
+      }
+    ],
+    "fictional_field": "Agendamento especial 2"
+  },
+  {
+    "category_id": "2",
+    "id": "prod-003",
+    "name": "Agendamento de Sala 3",
+    "description": "Reserva de sala para reuniões 3",
+    "value": 30000,
+    "inventory_quantity": 3,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "sala",
+        "value": 103
+      },
+      {
+        "name": "andar",
+        "value": 1
+      }
+    ],
+    "fictional_field": "Agendamento especial 3"
+  },
+  {
+    "category_id": "2",
+    "id": "prod-004",
+    "name": "Agendamento de Sala 4",
+    "description": "Reserva de sala para reuniões 4",
+    "value": 35000,
+    "inventory_quantity": 4,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "sala",
+        "value": 104
+      },
+      {
+        "name": "andar",
+        "value": 1
+      }
+    ],
+    "fictional_field": "Agendamento especial 4"
+  },
+  {
+    "category_id": "2",
+    "id": "prod-005",
+    "name": "Agendamento de Sala 5",
+    "description": "Reserva de sala para reuniões 5",
+    "value": 40000,
+    "inventory_quantity": 5,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "sala",
+        "value": 105
+      },
+      {
+        "name": "andar",
+        "value": 1
+      }
+    ],
+    "fictional_field": "Agendamento especial 5"
+  },
+  {
+    "category_id": "2",
+    "id": "prod-006",
+    "name": "Agendamento de Sala 6",
+    "description": "Reserva de sala para reuniões 6",
+    "value": 45000,
+    "inventory_quantity": 6,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "sala",
+        "value": 106
+      },
+      {
+        "name": "andar",
+        "value": 1
+      }
+    ],
+    "fictional_field": "Agendamento especial 6"
+  },
+  {
+    "category_id": "2",
+    "id": "prod-007",
+    "name": "Agendamento de Sala 7",
+    "description": "Reserva de sala para reuniões 7",
+    "value": 50000,
+    "inventory_quantity": 7,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "sala",
+        "value": 107
+      },
+      {
+        "name": "andar",
+        "value": 1
+      }
+    ],
+    "fictional_field": "Agendamento especial 7"
+  },
+  {
+    "category_id": "2",
+    "id": "prod-008",
+    "name": "Agendamento de Sala 8",
+    "description": "Reserva de sala para reuniões 8",
+    "value": 55000,
+    "inventory_quantity": 8,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "sala",
+        "value": 108
+      },
+      {
+        "name": "andar",
+        "value": 1
+      }
+    ],
+    "fictional_field": "Agendamento especial 8"
+  },
+  {
+    "category_id": "2",
+    "id": "prod-009",
+    "name": "Agendamento de Sala 9",
+    "description": "Reserva de sala para reuniões 9",
+    "value": 60000,
+    "inventory_quantity": 9,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "sala",
+        "value": 109
+      },
+      {
+        "name": "andar",
+        "value": 1
+      }
+    ],
+    "fictional_field": "Agendamento especial 9"
+  },
+  {
+    "category_id": "2",
+    "id": "prod-010",
+    "name": "Agendamento de Sala 10",
+    "description": "Reserva de sala para reuniões 10",
+    "value": 65000,
+    "inventory_quantity": 10,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "sala",
+        "value": 110
+      },
+      {
+        "name": "andar",
+        "value": 2
+      }
+    ],
+    "fictional_field": "Agendamento especial 10"
+  },
+  {
+    "category_id": "2",
+    "id": "prod-011",
+    "name": "Agendamento de Sala 11",
+    "description": "Reserva de sala para reuniões 11",
+    "value": 70000,
+    "inventory_quantity": 11,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "sala",
+        "value": 111
+      },
+      {
+        "name": "andar",
+        "value": 2
+      }
+    ],
+    "fictional_field": "Agendamento especial 11"
+  },
+  {
+    "category_id": "2",
+    "id": "prod-012",
+    "name": "Agendamento de Sala 12",
+    "description": "Reserva de sala para reuniões 12",
+    "value": 75000,
+    "inventory_quantity": 12,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "sala",
+        "value": 112
+      },
+      {
+        "name": "andar",
+        "value": 2
+      }
+    ],
+    "fictional_field": "Agendamento especial 12"
+  },
+  {
+    "category_id": "2",
+    "id": "prod-013",
+    "name": "Agendamento de Sala 13",
+    "description": "Reserva de sala para reuniões 13",
+    "value": 80000,
+    "inventory_quantity": 13,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "sala",
+        "value": 113
+      },
+      {
+        "name": "andar",
+        "value": 2
+      }
+    ],
+    "fictional_field": "Agendamento especial 13"
+  },
+  {
+    "category_id": "2",
+    "id": "prod-014",
+    "name": "Agendamento de Sala 14",
+    "description": "Reserva de sala para reuniões 14",
+    "value": 85000,
+    "inventory_quantity": 14,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "sala",
+        "value": 114
+      },
+      {
+        "name": "andar",
+        "value": 2
+      }
+    ],
+    "fictional_field": "Agendamento especial 14"
+  },
+  {
+    "category_id": "2",
+    "id": "prod-015",
+    "name": "Agendamento de Sala 15",
+    "description": "Reserva de sala para reuniões 15",
+    "value": 90000,
+    "inventory_quantity": 15,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "sala",
+        "value": 115
+      },
+      {
+        "name": "andar",
+        "value": 2
+      }
+    ],
+    "fictional_field": "Agendamento especial 15"
+  },
+  {
+    "category_id": "2",
+    "id": "prod-016",
+    "name": "Agendamento de Sala 16",
+    "description": "Reserva de sala para reuniões 16",
+    "value": 95000,
+    "inventory_quantity": 16,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "sala",
+        "value": 116
+      },
+      {
+        "name": "andar",
+        "value": 2
+      }
+    ],
+    "fictional_field": "Agendamento especial 16"
+  },
+  {
+    "category_id": "2",
+    "id": "prod-017",
+    "name": "Agendamento de Sala 17",
+    "description": "Reserva de sala para reuniões 17",
+    "value": 100000,
+    "inventory_quantity": 17,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "sala",
+        "value": 117
+      },
+      {
+        "name": "andar",
+        "value": 2
+      }
+    ],
+    "fictional_field": "Agendamento especial 17"
+  },
+  {
+    "category_id": "2",
+    "id": "prod-018",
+    "name": "Agendamento de Sala 18",
+    "description": "Reserva de sala para reuniões 18",
+    "value": 105000,
+    "inventory_quantity": 18,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "sala",
+        "value": 118
+      },
+      {
+        "name": "andar",
+        "value": 2
+      }
+    ],
+    "fictional_field": "Agendamento especial 18"
+  },
+  {
+    "category_id": "2",
+    "id": "prod-019",
+    "name": "Agendamento de Sala 19",
+    "description": "Reserva de sala para reuniões 19",
+    "value": 110000,
+    "inventory_quantity": 19,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "sala",
+        "value": 119
+      },
+      {
+        "name": "andar",
+        "value": 2
+      }
+    ],
+    "fictional_field": "Agendamento especial 19"
+  },
+  {
+    "category_id": "2",
+    "id": "prod-020",
+    "name": "Agendamento de Sala 20",
+    "description": "Reserva de sala para reuniões 20",
+    "value": 115000,
+    "inventory_quantity": 20,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "sala",
+        "value": 120
+      },
+      {
+        "name": "andar",
+        "value": 3
+      }
+    ],
+    "fictional_field": "Agendamento especial 20"
+  },
+  {
+    "category_id": "2",
+    "id": "prod-021",
+    "name": "Agendamento de Sala 21",
+    "description": "Reserva de sala para reuniões 21",
+    "value": 120000,
+    "inventory_quantity": 21,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "sala",
+        "value": 121
+      },
+      {
+        "name": "andar",
+        "value": 3
+      }
+    ],
+    "fictional_field": "Agendamento especial 21"
+  },
+  {
+    "category_id": "2",
+    "id": "prod-022",
+    "name": "Agendamento de Sala 22",
+    "description": "Reserva de sala para reuniões 22",
+    "value": 125000,
+    "inventory_quantity": 22,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "sala",
+        "value": 122
+      },
+      {
+        "name": "andar",
+        "value": 3
+      }
+    ],
+    "fictional_field": "Agendamento especial 22"
+  },
+  {
+    "category_id": "2",
+    "id": "prod-023",
+    "name": "Agendamento de Sala 23",
+    "description": "Reserva de sala para reuniões 23",
+    "value": 130000,
+    "inventory_quantity": 23,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "sala",
+        "value": 123
+      },
+      {
+        "name": "andar",
+        "value": 3
+      }
+    ],
+    "fictional_field": "Agendamento especial 23"
+  },
+  {
+    "category_id": "2",
+    "id": "prod-024",
+    "name": "Agendamento de Sala 24",
+    "description": "Reserva de sala para reuniões 24",
+    "value": 135000,
+    "inventory_quantity": 24,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "sala",
+        "value": 124
+      },
+      {
+        "name": "andar",
+        "value": 3
+      }
+    ],
+    "fictional_field": "Agendamento especial 24"
+  },
+  {
+    "category_id": "2",
+    "id": "prod-025",
+    "name": "Agendamento de Sala 25",
+    "description": "Reserva de sala para reuniões 25",
+    "value": 140000,
+    "inventory_quantity": 25,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "sala",
+        "value": 125
+      },
+      {
+        "name": "andar",
+        "value": 3
+      }
+    ],
+    "fictional_field": "Agendamento especial 25"
+  },
+  {
+    "category_id": "2",
+    "id": "prod-026",
+    "name": "Agendamento de Sala 26",
+    "description": "Reserva de sala para reuniões 26",
+    "value": 145000,
+    "inventory_quantity": 26,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "sala",
+        "value": 126
+      },
+      {
+        "name": "andar",
+        "value": 3
+      }
+    ],
+    "fictional_field": "Agendamento especial 26"
+  },
+  {
+    "category_id": "2",
+    "id": "prod-027",
+    "name": "Agendamento de Sala 27",
+    "description": "Reserva de sala para reuniões 27",
+    "value": 150000,
+    "inventory_quantity": 27,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "sala",
+        "value": 127
+      },
+      {
+        "name": "andar",
+        "value": 3
+      }
+    ],
+    "fictional_field": "Agendamento especial 27"
+  },
+  {
+    "category_id": "2",
+    "id": "prod-028",
+    "name": "Agendamento de Sala 28",
+    "description": "Reserva de sala para reuniões 28",
+    "value": 155000,
+    "inventory_quantity": 28,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "sala",
+        "value": 128
+      },
+      {
+        "name": "andar",
+        "value": 3
+      }
+    ],
+    "fictional_field": "Agendamento especial 28"
+  },
+  {
+    "category_id": "2",
+    "id": "prod-029",
+    "name": "Agendamento de Sala 29",
+    "description": "Reserva de sala para reuniões 29",
+    "value": 160000,
+    "inventory_quantity": 29,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "sala",
+        "value": 129
+      },
+      {
+        "name": "andar",
+        "value": 3
+      }
+    ],
+    "fictional_field": "Agendamento especial 29"
+  },
+  {
+    "category_id": "2",
+    "id": "prod-030",
+    "name": "Agendamento de Sala 30",
+    "description": "Reserva de sala para reuniões 30",
+    "value": 165000,
+    "inventory_quantity": 30,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "sala",
+        "value": 130
+      },
+      {
+        "name": "andar",
+        "value": 4
+      }
+    ],
+    "fictional_field": "Agendamento especial 30"
+  },
+  {
+    "category_id": "2",
+    "id": "prod-031",
+    "name": "Agendamento de Sala 31",
+    "description": "Reserva de sala para reuniões 31",
+    "value": 170000,
+    "inventory_quantity": 31,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "sala",
+        "value": 131
+      },
+      {
+        "name": "andar",
+        "value": 4
+      }
+    ],
+    "fictional_field": "Agendamento especial 31"
+  },
+  {
+    "category_id": "2",
+    "id": "prod-032",
+    "name": "Agendamento de Sala 32",
+    "description": "Reserva de sala para reuniões 32",
+    "value": 175000,
+    "inventory_quantity": 32,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "sala",
+        "value": 132
+      },
+      {
+        "name": "andar",
+        "value": 4
+      }
+    ],
+    "fictional_field": "Agendamento especial 32"
+  },
+  {
+    "category_id": "2",
+    "id": "prod-033",
+    "name": "Agendamento de Sala 33",
+    "description": "Reserva de sala para reuniões 33",
+    "value": 180000,
+    "inventory_quantity": 33,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "sala",
+        "value": 133
+      },
+      {
+        "name": "andar",
+        "value": 4
+      }
+    ],
+    "fictional_field": "Agendamento especial 33"
+  },
+  {
+    "category_id": "2",
+    "id": "prod-034",
+    "name": "Agendamento de Sala 34",
+    "description": "Reserva de sala para reuniões 34",
+    "value": 185000,
+    "inventory_quantity": 34,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "sala",
+        "value": 134
+      },
+      {
+        "name": "andar",
+        "value": 4
+      }
+    ],
+    "fictional_field": "Agendamento especial 34"
+  },
+  {
+    "category_id": "2",
+    "id": "prod-035",
+    "name": "Agendamento de Sala 35",
+    "description": "Reserva de sala para reuniões 35",
+    "value": 190000,
+    "inventory_quantity": 35,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "sala",
+        "value": 135
+      },
+      {
+        "name": "andar",
+        "value": 4
+      }
+    ],
+    "fictional_field": "Agendamento especial 35"
+  },
+  {
+    "category_id": "2",
+    "id": "prod-036",
+    "name": "Agendamento de Sala 36",
+    "description": "Reserva de sala para reuniões 36",
+    "value": 195000,
+    "inventory_quantity": 36,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "sala",
+        "value": 136
+      },
+      {
+        "name": "andar",
+        "value": 4
+      }
+    ],
+    "fictional_field": "Agendamento especial 36"
+  },
+  {
+    "category_id": "2",
+    "id": "prod-037",
+    "name": "Agendamento de Sala 37",
+    "description": "Reserva de sala para reuniões 37",
+    "value": 200000,
+    "inventory_quantity": 37,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "sala",
+        "value": 137
+      },
+      {
+        "name": "andar",
+        "value": 4
+      }
+    ],
+    "fictional_field": "Agendamento especial 37"
+  },
+  {
+    "category_id": "2",
+    "id": "prod-038",
+    "name": "Agendamento de Sala 38",
+    "description": "Reserva de sala para reuniões 38",
+    "value": 205000,
+    "inventory_quantity": 38,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "sala",
+        "value": 138
+      },
+      {
+        "name": "andar",
+        "value": 4
+      }
+    ],
+    "fictional_field": "Agendamento especial 38"
+  },
+  {
+    "category_id": "2",
+    "id": "prod-039",
+    "name": "Agendamento de Sala 39",
+    "description": "Reserva de sala para reuniões 39",
+    "value": 210000,
+    "inventory_quantity": 39,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "sala",
+        "value": 139
+      },
+      {
+        "name": "andar",
+        "value": 4
+      }
+    ],
+    "fictional_field": "Agendamento especial 39"
+  },
+  {
+    "category_id": "2",
+    "id": "prod-040",
+    "name": "Agendamento de Sala 40",
+    "description": "Reserva de sala para reuniões 40",
+    "value": 215000,
+    "inventory_quantity": 40,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "sala",
+        "value": 140
+      },
+      {
+        "name": "andar",
+        "value": 5
+      }
+    ],
+    "fictional_field": "Agendamento especial 40"
+  },
+  {
+    "category_id": "2",
+    "id": "prod-041",
+    "name": "Agendamento de Sala 41",
+    "description": "Reserva de sala para reuniões 41",
+    "value": 220000,
+    "inventory_quantity": 41,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "sala",
+        "value": 141
+      },
+      {
+        "name": "andar",
+        "value": 5
+      }
+    ],
+    "fictional_field": "Agendamento especial 41"
+  },
+  {
+    "category_id": "2",
+    "id": "prod-042",
+    "name": "Agendamento de Sala 42",
+    "description": "Reserva de sala para reuniões 42",
+    "value": 225000,
+    "inventory_quantity": 42,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "sala",
+        "value": 142
+      },
+      {
+        "name": "andar",
+        "value": 5
+      }
+    ],
+    "fictional_field": "Agendamento especial 42"
+  },
+  {
+    "category_id": "2",
+    "id": "prod-043",
+    "name": "Agendamento de Sala 43",
+    "description": "Reserva de sala para reuniões 43",
+    "value": 230000,
+    "inventory_quantity": 43,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "sala",
+        "value": 143
+      },
+      {
+        "name": "andar",
+        "value": 5
+      }
+    ],
+    "fictional_field": "Agendamento especial 43"
+  },
+  {
+    "category_id": "2",
+    "id": "prod-044",
+    "name": "Agendamento de Sala 44",
+    "description": "Reserva de sala para reuniões 44",
+    "value": 235000,
+    "inventory_quantity": 44,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "sala",
+        "value": 144
+      },
+      {
+        "name": "andar",
+        "value": 5
+      }
+    ],
+    "fictional_field": "Agendamento especial 44"
+  },
+  {
+    "category_id": "2",
+    "id": "prod-045",
+    "name": "Agendamento de Sala 45",
+    "description": "Reserva de sala para reuniões 45",
+    "value": 240000,
+    "inventory_quantity": 45,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "sala",
+        "value": 145
+      },
+      {
+        "name": "andar",
+        "value": 5
+      }
+    ],
+    "fictional_field": "Agendamento especial 45"
+  },
+  {
+    "category_id": "2",
+    "id": "prod-046",
+    "name": "Agendamento de Sala 46",
+    "description": "Reserva de sala para reuniões 46",
+    "value": 245000,
+    "inventory_quantity": 46,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "sala",
+        "value": 146
+      },
+      {
+        "name": "andar",
+        "value": 5
+      }
+    ],
+    "fictional_field": "Agendamento especial 46"
+  },
+  {
+    "category_id": "2",
+    "id": "prod-047",
+    "name": "Agendamento de Sala 47",
+    "description": "Reserva de sala para reuniões 47",
+    "value": 250000,
+    "inventory_quantity": 47,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "sala",
+        "value": 147
+      },
+      {
+        "name": "andar",
+        "value": 5
+      }
+    ],
+    "fictional_field": "Agendamento especial 47"
+  },
+  {
+    "category_id": "2",
+    "id": "prod-048",
+    "name": "Agendamento de Sala 48",
+    "description": "Reserva de sala para reuniões 48",
+    "value": 255000,
+    "inventory_quantity": 48,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "sala",
+        "value": 148
+      },
+      {
+        "name": "andar",
+        "value": 5
+      }
+    ],
+    "fictional_field": "Agendamento especial 48"
+  },
+  {
+    "category_id": "2",
+    "id": "prod-049",
+    "name": "Agendamento de Sala 49",
+    "description": "Reserva de sala para reuniões 49",
+    "value": 260000,
+    "inventory_quantity": 49,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "sala",
+        "value": 149
+      },
+      {
+        "name": "andar",
+        "value": 5
+      }
+    ],
+    "fictional_field": "Agendamento especial 49"
+  },
+  {
+    "category_id": "2",
+    "id": "prod-050",
+    "name": "Agendamento de Sala 50",
+    "description": "Reserva de sala para reuniões 50",
+    "value": 265000,
+    "inventory_quantity": 50,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "sala",
+        "value": 150
+      },
+      {
+        "name": "andar",
+        "value": 6
+      }
+    ],
+    "fictional_field": "Agendamento especial 50"
+  },
+  {
+    "category_id": "2",
+    "id": "prod-051",
+    "name": "Agendamento de Sala 51",
+    "description": "Reserva de sala para reuniões 51",
+    "value": 270000,
+    "inventory_quantity": 51,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "sala",
+        "value": 151
+      },
+      {
+        "name": "andar",
+        "value": 6
+      }
+    ],
+    "fictional_field": "Agendamento especial 51"
+  },
+  {
+    "category_id": "2",
+    "id": "prod-052",
+    "name": "Agendamento de Sala 52",
+    "description": "Reserva de sala para reuniões 52",
+    "value": 275000,
+    "inventory_quantity": 52,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "sala",
+        "value": 152
+      },
+      {
+        "name": "andar",
+        "value": 6
+      }
+    ],
+    "fictional_field": "Agendamento especial 52"
+  },
+  {
+    "category_id": "2",
+    "id": "prod-053",
+    "name": "Agendamento de Sala 53",
+    "description": "Reserva de sala para reuniões 53",
+    "value": 280000,
+    "inventory_quantity": 53,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "sala",
+        "value": 153
+      },
+      {
+        "name": "andar",
+        "value": 6
+      }
+    ],
+    "fictional_field": "Agendamento especial 53"
+  },
+  {
+    "category_id": "2",
+    "id": "prod-054",
+    "name": "Agendamento de Sala 54",
+    "description": "Reserva de sala para reuniões 54",
+    "value": 285000,
+    "inventory_quantity": 54,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "sala",
+        "value": 154
+      },
+      {
+        "name": "andar",
+        "value": 6
+      }
+    ],
+    "fictional_field": "Agendamento especial 54"
+  },
+  {
+    "category_id": "2",
+    "id": "prod-055",
+    "name": "Agendamento de Sala 55",
+    "description": "Reserva de sala para reuniões 55",
+    "value": 290000,
+    "inventory_quantity": 55,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "sala",
+        "value": 155
+      },
+      {
+        "name": "andar",
+        "value": 6
+      }
+    ],
+    "fictional_field": "Agendamento especial 55"
+  },
+  {
+    "category_id": "2",
+    "id": "prod-056",
+    "name": "Agendamento de Sala 56",
+    "description": "Reserva de sala para reuniões 56",
+    "value": 295000,
+    "inventory_quantity": 56,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "sala",
+        "value": 156
+      },
+      {
+        "name": "andar",
+        "value": 6
+      }
+    ],
+    "fictional_field": "Agendamento especial 56"
+  },
+  {
+    "category_id": "2",
+    "id": "prod-057",
+    "name": "Agendamento de Sala 57",
+    "description": "Reserva de sala para reuniões 57",
+    "value": 300000,
+    "inventory_quantity": 57,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "sala",
+        "value": 157
+      },
+      {
+        "name": "andar",
+        "value": 6
+      }
+    ],
+    "fictional_field": "Agendamento especial 57"
+  },
+  {
+    "category_id": "2",
+    "id": "prod-058",
+    "name": "Agendamento de Sala 58",
+    "description": "Reserva de sala para reuniões 58",
+    "value": 305000,
+    "inventory_quantity": 58,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "sala",
+        "value": 158
+      },
+      {
+        "name": "andar",
+        "value": 6
+      }
+    ],
+    "fictional_field": "Agendamento especial 58"
+  },
+  {
+    "category_id": "2",
+    "id": "prod-059",
+    "name": "Agendamento de Sala 59",
+    "description": "Reserva de sala para reuniões 59",
+    "value": 310000,
+    "inventory_quantity": 59,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "sala",
+        "value": 159
+      },
+      {
+        "name": "andar",
+        "value": 6
+      }
+    ],
+    "fictional_field": "Agendamento especial 59"
+  },
+  {
+    "category_id": "2",
+    "id": "prod-060",
+    "name": "Agendamento de Sala 60",
+    "description": "Reserva de sala para reuniões 60",
+    "value": 315000,
+    "inventory_quantity": 60,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "sala",
+        "value": 160
+      },
+      {
+        "name": "andar",
+        "value": 7
+      }
+    ],
+    "fictional_field": "Agendamento especial 60"
+  },
+  {
+    "category_id": "2",
+    "id": "prod-061",
+    "name": "Agendamento de Sala 61",
+    "description": "Reserva de sala para reuniões 61",
+    "value": 320000,
+    "inventory_quantity": 61,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "sala",
+        "value": 161
+      },
+      {
+        "name": "andar",
+        "value": 7
+      }
+    ],
+    "fictional_field": "Agendamento especial 61"
+  },
+  {
+    "category_id": "2",
+    "id": "prod-062",
+    "name": "Agendamento de Sala 62",
+    "description": "Reserva de sala para reuniões 62",
+    "value": 325000,
+    "inventory_quantity": 62,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "sala",
+        "value": 162
+      },
+      {
+        "name": "andar",
+        "value": 7
+      }
+    ],
+    "fictional_field": "Agendamento especial 62"
+  },
+  {
+    "category_id": "2",
+    "id": "prod-063",
+    "name": "Agendamento de Sala 63",
+    "description": "Reserva de sala para reuniões 63",
+    "value": 330000,
+    "inventory_quantity": 63,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "sala",
+        "value": 163
+      },
+      {
+        "name": "andar",
+        "value": 7
+      }
+    ],
+    "fictional_field": "Agendamento especial 63"
+  },
+  {
+    "category_id": "2",
+    "id": "prod-064",
+    "name": "Agendamento de Sala 64",
+    "description": "Reserva de sala para reuniões 64",
+    "value": 335000,
+    "inventory_quantity": 64,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "sala",
+        "value": 164
+      },
+      {
+        "name": "andar",
+        "value": 7
+      }
+    ],
+    "fictional_field": "Agendamento especial 64"
+  },
+  {
+    "category_id": "2",
+    "id": "prod-065",
+    "name": "Agendamento de Sala 65",
+    "description": "Reserva de sala para reuniões 65",
+    "value": 340000,
+    "inventory_quantity": 65,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "sala",
+        "value": 165
+      },
+      {
+        "name": "andar",
+        "value": 7
+      }
+    ],
+    "fictional_field": "Agendamento especial 65"
+  },
+  {
+    "category_id": "2",
+    "id": "prod-066",
+    "name": "Agendamento de Sala 66",
+    "description": "Reserva de sala para reuniões 66",
+    "value": 345000,
+    "inventory_quantity": 66,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "sala",
+        "value": 166
+      },
+      {
+        "name": "andar",
+        "value": 7
+      }
+    ],
+    "fictional_field": "Agendamento especial 66"
+  },
+  {
+    "category_id": "2",
+    "id": "prod-067",
+    "name": "Agendamento de Sala 67",
+    "description": "Reserva de sala para reuniões 67",
+    "value": 350000,
+    "inventory_quantity": 67,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "sala",
+        "value": 167
+      },
+      {
+        "name": "andar",
+        "value": 7
+      }
+    ],
+    "fictional_field": "Agendamento especial 67"
+  },
+  {
+    "category_id": "2",
+    "id": "prod-068",
+    "name": "Agendamento de Sala 68",
+    "description": "Reserva de sala para reuniões 68",
+    "value": 355000,
+    "inventory_quantity": 68,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "sala",
+        "value": 168
+      },
+      {
+        "name": "andar",
+        "value": 7
+      }
+    ],
+    "fictional_field": "Agendamento especial 68"
+  },
+  {
+    "category_id": "2",
+    "id": "prod-069",
+    "name": "Agendamento de Sala 69",
+    "description": "Reserva de sala para reuniões 69",
+    "value": 360000,
+    "inventory_quantity": 69,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "sala",
+        "value": 169
+      },
+      {
+        "name": "andar",
+        "value": 7
+      }
+    ],
+    "fictional_field": "Agendamento especial 69"
+  },
+  {
+    "category_id": "2",
+    "id": "prod-070",
+    "name": "Agendamento de Sala 70",
+    "description": "Reserva de sala para reuniões 70",
+    "value": 365000,
+    "inventory_quantity": 70,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "sala",
+        "value": 170
+      },
+      {
+        "name": "andar",
+        "value": 8
+      }
+    ],
+    "fictional_field": "Agendamento especial 70"
+  },
+  {
+    "category_id": "2",
+    "id": "prod-071",
+    "name": "Agendamento de Sala 71",
+    "description": "Reserva de sala para reuniões 71",
+    "value": 370000,
+    "inventory_quantity": 71,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "sala",
+        "value": 171
+      },
+      {
+        "name": "andar",
+        "value": 8
+      }
+    ],
+    "fictional_field": "Agendamento especial 71"
+  },
+  {
+    "category_id": "2",
+    "id": "prod-072",
+    "name": "Agendamento de Sala 72",
+    "description": "Reserva de sala para reuniões 72",
+    "value": 375000,
+    "inventory_quantity": 72,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "sala",
+        "value": 172
+      },
+      {
+        "name": "andar",
+        "value": 8
+      }
+    ],
+    "fictional_field": "Agendamento especial 72"
+  },
+  {
+    "category_id": "2",
+    "id": "prod-073",
+    "name": "Agendamento de Sala 73",
+    "description": "Reserva de sala para reuniões 73",
+    "value": 380000,
+    "inventory_quantity": 73,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "sala",
+        "value": 173
+      },
+      {
+        "name": "andar",
+        "value": 8
+      }
+    ],
+    "fictional_field": "Agendamento especial 73"
+  },
+  {
+    "category_id": "2",
+    "id": "prod-074",
+    "name": "Agendamento de Sala 74",
+    "description": "Reserva de sala para reuniões 74",
+    "value": 385000,
+    "inventory_quantity": 74,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "sala",
+        "value": 174
+      },
+      {
+        "name": "andar",
+        "value": 8
+      }
+    ],
+    "fictional_field": "Agendamento especial 74"
+  },
+  {
+    "category_id": "2",
+    "id": "prod-075",
+    "name": "Agendamento de Sala 75",
+    "description": "Reserva de sala para reuniões 75",
+    "value": 390000,
+    "inventory_quantity": 75,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "sala",
+        "value": 175
+      },
+      {
+        "name": "andar",
+        "value": 8
+      }
+    ],
+    "fictional_field": "Agendamento especial 75"
+  },
+  {
+    "category_id": "2",
+    "id": "prod-076",
+    "name": "Agendamento de Sala 76",
+    "description": "Reserva de sala para reuniões 76",
+    "value": 395000,
+    "inventory_quantity": 76,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "sala",
+        "value": 176
+      },
+      {
+        "name": "andar",
+        "value": 8
+      }
+    ],
+    "fictional_field": "Agendamento especial 76"
+  },
+  {
+    "category_id": "2",
+    "id": "prod-077",
+    "name": "Agendamento de Sala 77",
+    "description": "Reserva de sala para reuniões 77",
+    "value": 400000,
+    "inventory_quantity": 77,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "sala",
+        "value": 177
+      },
+      {
+        "name": "andar",
+        "value": 8
+      }
+    ],
+    "fictional_field": "Agendamento especial 77"
+  },
+  {
+    "category_id": "2",
+    "id": "prod-078",
+    "name": "Agendamento de Sala 78",
+    "description": "Reserva de sala para reuniões 78",
+    "value": 405000,
+    "inventory_quantity": 78,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "sala",
+        "value": 178
+      },
+      {
+        "name": "andar",
+        "value": 8
+      }
+    ],
+    "fictional_field": "Agendamento especial 78"
+  },
+  {
+    "category_id": "2",
+    "id": "prod-079",
+    "name": "Agendamento de Sala 79",
+    "description": "Reserva de sala para reuniões 79",
+    "value": 410000,
+    "inventory_quantity": 79,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "sala",
+        "value": 179
+      },
+      {
+        "name": "andar",
+        "value": 8
+      }
+    ],
+    "fictional_field": "Agendamento especial 79"
+  },
+  {
+    "category_id": "2",
+    "id": "prod-080",
+    "name": "Agendamento de Sala 80",
+    "description": "Reserva de sala para reuniões 80",
+    "value": 415000,
+    "inventory_quantity": 80,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "sala",
+        "value": 180
+      },
+      {
+        "name": "andar",
+        "value": 9
+      }
+    ],
+    "fictional_field": "Agendamento especial 80"
+  },
+  {
+    "category_id": "2",
+    "id": "prod-081",
+    "name": "Agendamento de Sala 81",
+    "description": "Reserva de sala para reuniões 81",
+    "value": 420000,
+    "inventory_quantity": 81,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "sala",
+        "value": 181
+      },
+      {
+        "name": "andar",
+        "value": 9
+      }
+    ],
+    "fictional_field": "Agendamento especial 81"
+  },
+  {
+    "category_id": "2",
+    "id": "prod-082",
+    "name": "Agendamento de Sala 82",
+    "description": "Reserva de sala para reuniões 82",
+    "value": 425000,
+    "inventory_quantity": 82,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "sala",
+        "value": 182
+      },
+      {
+        "name": "andar",
+        "value": 9
+      }
+    ],
+    "fictional_field": "Agendamento especial 82"
+  },
+  {
+    "category_id": "2",
+    "id": "prod-083",
+    "name": "Agendamento de Sala 83",
+    "description": "Reserva de sala para reuniões 83",
+    "value": 430000,
+    "inventory_quantity": 83,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "sala",
+        "value": 183
+      },
+      {
+        "name": "andar",
+        "value": 9
+      }
+    ],
+    "fictional_field": "Agendamento especial 83"
+  },
+  {
+    "category_id": "2",
+    "id": "prod-084",
+    "name": "Agendamento de Sala 84",
+    "description": "Reserva de sala para reuniões 84",
+    "value": 435000,
+    "inventory_quantity": 84,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "sala",
+        "value": 184
+      },
+      {
+        "name": "andar",
+        "value": 9
+      }
+    ],
+    "fictional_field": "Agendamento especial 84"
+  },
+  {
+    "category_id": "2",
+    "id": "prod-085",
+    "name": "Agendamento de Sala 85",
+    "description": "Reserva de sala para reuniões 85",
+    "value": 440000,
+    "inventory_quantity": 85,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "sala",
+        "value": 185
+      },
+      {
+        "name": "andar",
+        "value": 9
+      }
+    ],
+    "fictional_field": "Agendamento especial 85"
+  },
+  {
+    "category_id": "2",
+    "id": "prod-086",
+    "name": "Agendamento de Sala 86",
+    "description": "Reserva de sala para reuniões 86",
+    "value": 445000,
+    "inventory_quantity": 86,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "sala",
+        "value": 186
+      },
+      {
+        "name": "andar",
+        "value": 9
+      }
+    ],
+    "fictional_field": "Agendamento especial 86"
+  },
+  {
+    "category_id": "2",
+    "id": "prod-087",
+    "name": "Agendamento de Sala 87",
+    "description": "Reserva de sala para reuniões 87",
+    "value": 450000,
+    "inventory_quantity": 87,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "sala",
+        "value": 187
+      },
+      {
+        "name": "andar",
+        "value": 9
+      }
+    ],
+    "fictional_field": "Agendamento especial 87"
+  },
+  {
+    "category_id": "2",
+    "id": "prod-088",
+    "name": "Agendamento de Sala 88",
+    "description": "Reserva de sala para reuniões 88",
+    "value": 455000,
+    "inventory_quantity": 88,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "sala",
+        "value": 188
+      },
+      {
+        "name": "andar",
+        "value": 9
+      }
+    ],
+    "fictional_field": "Agendamento especial 88"
+  },
+  {
+    "category_id": "2",
+    "id": "prod-089",
+    "name": "Agendamento de Sala 89",
+    "description": "Reserva de sala para reuniões 89",
+    "value": 460000,
+    "inventory_quantity": 89,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "sala",
+        "value": 189
+      },
+      {
+        "name": "andar",
+        "value": 9
+      }
+    ],
+    "fictional_field": "Agendamento especial 89"
+  },
+  {
+    "category_id": "2",
+    "id": "prod-090",
+    "name": "Agendamento de Sala 90",
+    "description": "Reserva de sala para reuniões 90",
+    "value": 465000,
+    "inventory_quantity": 90,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "sala",
+        "value": 190
+      },
+      {
+        "name": "andar",
+        "value": 10
+      }
+    ],
+    "fictional_field": "Agendamento especial 90"
+  },
+  {
+    "category_id": "2",
+    "id": "prod-091",
+    "name": "Agendamento de Sala 91",
+    "description": "Reserva de sala para reuniões 91",
+    "value": 470000,
+    "inventory_quantity": 91,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "sala",
+        "value": 191
+      },
+      {
+        "name": "andar",
+        "value": 10
+      }
+    ],
+    "fictional_field": "Agendamento especial 91"
+  },
+  {
+    "category_id": "2",
+    "id": "prod-092",
+    "name": "Agendamento de Sala 92",
+    "description": "Reserva de sala para reuniões 92",
+    "value": 475000,
+    "inventory_quantity": 92,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "sala",
+        "value": 192
+      },
+      {
+        "name": "andar",
+        "value": 10
+      }
+    ],
+    "fictional_field": "Agendamento especial 92"
+  },
+  {
+    "category_id": "2",
+    "id": "prod-093",
+    "name": "Agendamento de Sala 93",
+    "description": "Reserva de sala para reuniões 93",
+    "value": 480000,
+    "inventory_quantity": 93,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "sala",
+        "value": 193
+      },
+      {
+        "name": "andar",
+        "value": 10
+      }
+    ],
+    "fictional_field": "Agendamento especial 93"
+  },
+  {
+    "category_id": "2",
+    "id": "prod-094",
+    "name": "Agendamento de Sala 94",
+    "description": "Reserva de sala para reuniões 94",
+    "value": 485000,
+    "inventory_quantity": 94,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "sala",
+        "value": 194
+      },
+      {
+        "name": "andar",
+        "value": 10
+      }
+    ],
+    "fictional_field": "Agendamento especial 94"
+  },
+  {
+    "category_id": "2",
+    "id": "prod-095",
+    "name": "Agendamento de Sala 95",
+    "description": "Reserva de sala para reuniões 95",
+    "value": 490000,
+    "inventory_quantity": 95,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "sala",
+        "value": 195
+      },
+      {
+        "name": "andar",
+        "value": 10
+      }
+    ],
+    "fictional_field": "Agendamento especial 95"
+  },
+  {
+    "category_id": "2",
+    "id": "prod-096",
+    "name": "Agendamento de Sala 96",
+    "description": "Reserva de sala para reuniões 96",
+    "value": 495000,
+    "inventory_quantity": 96,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "sala",
+        "value": 196
+      },
+      {
+        "name": "andar",
+        "value": 10
+      }
+    ],
+    "fictional_field": "Agendamento especial 96"
+  },
+  {
+    "category_id": "2",
+    "id": "prod-097",
+    "name": "Agendamento de Sala 97",
+    "description": "Reserva de sala para reuniões 97",
+    "value": 500000,
+    "inventory_quantity": 97,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "sala",
+        "value": 197
+      },
+      {
+        "name": "andar",
+        "value": 10
+      }
+    ],
+    "fictional_field": "Agendamento especial 97"
+  },
+  {
+    "category_id": "2",
+    "id": "prod-098",
+    "name": "Agendamento de Sala 98",
+    "description": "Reserva de sala para reuniões 98",
+    "value": 505000,
+    "inventory_quantity": 98,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "sala",
+        "value": 198
+      },
+      {
+        "name": "andar",
+        "value": 10
+      }
+    ],
+    "fictional_field": "Agendamento especial 98"
+  },
+  {
+    "category_id": "2",
+    "id": "prod-099",
+    "name": "Agendamento de Sala 99",
+    "description": "Reserva de sala para reuniões 99",
+    "value": 510000,
+    "inventory_quantity": 99,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "sala",
+        "value": 199
+      },
+      {
+        "name": "andar",
+        "value": 10
+      }
+    ],
+    "fictional_field": "Agendamento especial 99"
+  },
+  {
+    "category_id": "2",
+    "id": "prod-100",
+    "name": "Agendamento de Sala 100",
+    "description": "Reserva de sala para reuniões 100",
+    "value": 515000,
+    "inventory_quantity": 100,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "sala",
+        "value": 200
+      },
+      {
+        "name": "andar",
+        "value": 11
+      }
+    ],
+    "fictional_field": "Agendamento especial 100"
+  },
+  {
+    "category_id": "1",
+    "id": "PROD123-1",
+    "name": "Arroz 5kg 1",
+    "description": "Arroz branco tipo 1 pacote 5kg 1",
+    "value": 2699,
+    "inventory_quantity": 101,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "Marca",
+        "value": 1
+      },
+      {
+        "name": "Origem",
+        "value": 2
+      }
+    ],
+    "ean_code": "78912345670891",
+    "unit": {
+      "name": "UN",
+      "value": 1
+    }
+  },
+  {
+    "category_id": "1",
+    "id": "PROD123-2",
+    "name": "Arroz 5kg 2",
+    "description": "Arroz branco tipo 1 pacote 5kg 2",
+    "value": 2799,
+    "inventory_quantity": 102,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "Marca",
+        "value": 2
+      },
+      {
+        "name": "Origem",
+        "value": 3
+      }
+    ],
+    "ean_code": "78912345670892",
+    "unit": {
+      "name": "UN",
+      "value": 1
+    }
+  },
+  {
+    "category_id": "1",
+    "id": "PROD123-3",
+    "name": "Arroz 5kg 3",
+    "description": "Arroz branco tipo 1 pacote 5kg 3",
+    "value": 2899,
+    "inventory_quantity": 103,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "Marca",
+        "value": 3
+      },
+      {
+        "name": "Origem",
+        "value": 4
+      }
+    ],
+    "ean_code": "78912345670893",
+    "unit": {
+      "name": "UN",
+      "value": 1
+    }
+  },
+  {
+    "category_id": "1",
+    "id": "PROD123-4",
+    "name": "Arroz 5kg 4",
+    "description": "Arroz branco tipo 1 pacote 5kg 4",
+    "value": 2999,
+    "inventory_quantity": 104,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "Marca",
+        "value": 4
+      },
+      {
+        "name": "Origem",
+        "value": 5
+      }
+    ],
+    "ean_code": "78912345670894",
+    "unit": {
+      "name": "UN",
+      "value": 1
+    }
+  },
+  {
+    "category_id": "1",
+    "id": "PROD123-5",
+    "name": "Arroz 5kg 5",
+    "description": "Arroz branco tipo 1 pacote 5kg 5",
+    "value": 3099,
+    "inventory_quantity": 105,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "Marca",
+        "value": 5
+      },
+      {
+        "name": "Origem",
+        "value": 6
+      }
+    ],
+    "ean_code": "78912345670895",
+    "unit": {
+      "name": "UN",
+      "value": 1
+    }
+  },
+  {
+    "category_id": "1",
+    "id": "PROD123-6",
+    "name": "Arroz 5kg 6",
+    "description": "Arroz branco tipo 1 pacote 5kg 6",
+    "value": 3199,
+    "inventory_quantity": 106,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "Marca",
+        "value": 6
+      },
+      {
+        "name": "Origem",
+        "value": 7
+      }
+    ],
+    "ean_code": "78912345670896",
+    "unit": {
+      "name": "UN",
+      "value": 1
+    }
+  },
+  {
+    "category_id": "1",
+    "id": "PROD123-7",
+    "name": "Arroz 5kg 7",
+    "description": "Arroz branco tipo 1 pacote 5kg 7",
+    "value": 3299,
+    "inventory_quantity": 107,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "Marca",
+        "value": 7
+      },
+      {
+        "name": "Origem",
+        "value": 8
+      }
+    ],
+    "ean_code": "78912345670897",
+    "unit": {
+      "name": "UN",
+      "value": 1
+    }
+  },
+  {
+    "category_id": "1",
+    "id": "PROD123-8",
+    "name": "Arroz 5kg 8",
+    "description": "Arroz branco tipo 1 pacote 5kg 8",
+    "value": 3399,
+    "inventory_quantity": 108,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "Marca",
+        "value": 8
+      },
+      {
+        "name": "Origem",
+        "value": 9
+      }
+    ],
+    "ean_code": "78912345670898",
+    "unit": {
+      "name": "UN",
+      "value": 1
+    }
+  },
+  {
+    "category_id": "1",
+    "id": "PROD123-9",
+    "name": "Arroz 5kg 9",
+    "description": "Arroz branco tipo 1 pacote 5kg 9",
+    "value": 3499,
+    "inventory_quantity": 109,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "Marca",
+        "value": 9
+      },
+      {
+        "name": "Origem",
+        "value": 10
+      }
+    ],
+    "ean_code": "78912345670899",
+    "unit": {
+      "name": "UN",
+      "value": 1
+    }
+  },
+  {
+    "category_id": "1",
+    "id": "PROD123-10",
+    "name": "Arroz 5kg 10",
+    "description": "Arroz branco tipo 1 pacote 5kg 10",
+    "value": 3599,
+    "inventory_quantity": 110,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "Marca",
+        "value": 10
+      },
+      {
+        "name": "Origem",
+        "value": 11
+      }
+    ],
+    "ean_code": "78912345670900",
+    "unit": {
+      "name": "UN",
+      "value": 1
+    }
+  },
+  {
+    "category_id": "1",
+    "id": "PROD123-11",
+    "name": "Arroz 5kg 11",
+    "description": "Arroz branco tipo 1 pacote 5kg 11",
+    "value": 3699,
+    "inventory_quantity": 111,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "Marca",
+        "value": 11
+      },
+      {
+        "name": "Origem",
+        "value": 12
+      }
+    ],
+    "ean_code": "78912345670901",
+    "unit": {
+      "name": "UN",
+      "value": 1
+    }
+  },
+  {
+    "category_id": "1",
+    "id": "PROD123-12",
+    "name": "Arroz 5kg 12",
+    "description": "Arroz branco tipo 1 pacote 5kg 12",
+    "value": 3799,
+    "inventory_quantity": 112,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "Marca",
+        "value": 12
+      },
+      {
+        "name": "Origem",
+        "value": 13
+      }
+    ],
+    "ean_code": "78912345670902",
+    "unit": {
+      "name": "UN",
+      "value": 1
+    }
+  },
+  {
+    "category_id": "1",
+    "id": "PROD123-13",
+    "name": "Arroz 5kg 13",
+    "description": "Arroz branco tipo 1 pacote 5kg 13",
+    "value": 3899,
+    "inventory_quantity": 113,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "Marca",
+        "value": 13
+      },
+      {
+        "name": "Origem",
+        "value": 14
+      }
+    ],
+    "ean_code": "78912345670903",
+    "unit": {
+      "name": "UN",
+      "value": 1
+    }
+  },
+  {
+    "category_id": "1",
+    "id": "PROD123-14",
+    "name": "Arroz 5kg 14",
+    "description": "Arroz branco tipo 1 pacote 5kg 14",
+    "value": 3999,
+    "inventory_quantity": 114,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "Marca",
+        "value": 14
+      },
+      {
+        "name": "Origem",
+        "value": 15
+      }
+    ],
+    "ean_code": "78912345670904",
+    "unit": {
+      "name": "UN",
+      "value": 1
+    }
+  },
+  {
+    "category_id": "1",
+    "id": "PROD123-15",
+    "name": "Arroz 5kg 15",
+    "description": "Arroz branco tipo 1 pacote 5kg 15",
+    "value": 4099,
+    "inventory_quantity": 115,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "Marca",
+        "value": 15
+      },
+      {
+        "name": "Origem",
+        "value": 16
+      }
+    ],
+    "ean_code": "78912345670905",
+    "unit": {
+      "name": "UN",
+      "value": 1
+    }
+  },
+  {
+    "category_id": "1",
+    "id": "PROD123-16",
+    "name": "Arroz 5kg 16",
+    "description": "Arroz branco tipo 1 pacote 5kg 16",
+    "value": 4199,
+    "inventory_quantity": 116,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "Marca",
+        "value": 16
+      },
+      {
+        "name": "Origem",
+        "value": 17
+      }
+    ],
+    "ean_code": "78912345670906",
+    "unit": {
+      "name": "UN",
+      "value": 1
+    }
+  },
+  {
+    "category_id": "1",
+    "id": "PROD123-17",
+    "name": "Arroz 5kg 17",
+    "description": "Arroz branco tipo 1 pacote 5kg 17",
+    "value": 4299,
+    "inventory_quantity": 117,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "Marca",
+        "value": 17
+      },
+      {
+        "name": "Origem",
+        "value": 18
+      }
+    ],
+    "ean_code": "78912345670907",
+    "unit": {
+      "name": "UN",
+      "value": 1
+    }
+  },
+  {
+    "category_id": "1",
+    "id": "PROD123-18",
+    "name": "Arroz 5kg 18",
+    "description": "Arroz branco tipo 1 pacote 5kg 18",
+    "value": 4399,
+    "inventory_quantity": 118,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "Marca",
+        "value": 18
+      },
+      {
+        "name": "Origem",
+        "value": 19
+      }
+    ],
+    "ean_code": "78912345670908",
+    "unit": {
+      "name": "UN",
+      "value": 1
+    }
+  },
+  {
+    "category_id": "1",
+    "id": "PROD123-19",
+    "name": "Arroz 5kg 19",
+    "description": "Arroz branco tipo 1 pacote 5kg 19",
+    "value": 4499,
+    "inventory_quantity": 119,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "Marca",
+        "value": 19
+      },
+      {
+        "name": "Origem",
+        "value": 20
+      }
+    ],
+    "ean_code": "78912345670909",
+    "unit": {
+      "name": "UN",
+      "value": 1
+    }
+  },
+  {
+    "category_id": "1",
+    "id": "PROD123-20",
+    "name": "Arroz 5kg 20",
+    "description": "Arroz branco tipo 1 pacote 5kg 20",
+    "value": 4599,
+    "inventory_quantity": 120,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "Marca",
+        "value": 20
+      },
+      {
+        "name": "Origem",
+        "value": 21
+      }
+    ],
+    "ean_code": "78912345670910",
+    "unit": {
+      "name": "UN",
+      "value": 1
+    }
+  },
+  {
+    "category_id": "1",
+    "id": "PROD123-21",
+    "name": "Arroz 5kg 21",
+    "description": "Arroz branco tipo 1 pacote 5kg 21",
+    "value": 4699,
+    "inventory_quantity": 121,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "Marca",
+        "value": 21
+      },
+      {
+        "name": "Origem",
+        "value": 22
+      }
+    ],
+    "ean_code": "78912345670911",
+    "unit": {
+      "name": "UN",
+      "value": 1
+    }
+  },
+  {
+    "category_id": "1",
+    "id": "PROD123-22",
+    "name": "Arroz 5kg 22",
+    "description": "Arroz branco tipo 1 pacote 5kg 22",
+    "value": 4799,
+    "inventory_quantity": 122,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "Marca",
+        "value": 22
+      },
+      {
+        "name": "Origem",
+        "value": 23
+      }
+    ],
+    "ean_code": "78912345670912",
+    "unit": {
+      "name": "UN",
+      "value": 1
+    }
+  },
+  {
+    "category_id": "1",
+    "id": "PROD123-23",
+    "name": "Arroz 5kg 23",
+    "description": "Arroz branco tipo 1 pacote 5kg 23",
+    "value": 4899,
+    "inventory_quantity": 123,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "Marca",
+        "value": 23
+      },
+      {
+        "name": "Origem",
+        "value": 24
+      }
+    ],
+    "ean_code": "78912345670913",
+    "unit": {
+      "name": "UN",
+      "value": 1
+    }
+  },
+  {
+    "category_id": "1",
+    "id": "PROD123-24",
+    "name": "Arroz 5kg 24",
+    "description": "Arroz branco tipo 1 pacote 5kg 24",
+    "value": 4999,
+    "inventory_quantity": 124,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "Marca",
+        "value": 24
+      },
+      {
+        "name": "Origem",
+        "value": 25
+      }
+    ],
+    "ean_code": "78912345670914",
+    "unit": {
+      "name": "UN",
+      "value": 1
+    }
+  },
+  {
+    "category_id": "1",
+    "id": "PROD123-25",
+    "name": "Arroz 5kg 25",
+    "description": "Arroz branco tipo 1 pacote 5kg 25",
+    "value": 5099,
+    "inventory_quantity": 125,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "Marca",
+        "value": 25
+      },
+      {
+        "name": "Origem",
+        "value": 26
+      }
+    ],
+    "ean_code": "78912345670915",
+    "unit": {
+      "name": "UN",
+      "value": 1
+    }
+  },
+  {
+    "category_id": "1",
+    "id": "PROD123-26",
+    "name": "Arroz 5kg 26",
+    "description": "Arroz branco tipo 1 pacote 5kg 26",
+    "value": 5199,
+    "inventory_quantity": 126,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "Marca",
+        "value": 26
+      },
+      {
+        "name": "Origem",
+        "value": 27
+      }
+    ],
+    "ean_code": "78912345670916",
+    "unit": {
+      "name": "UN",
+      "value": 1
+    }
+  },
+  {
+    "category_id": "1",
+    "id": "PROD123-27",
+    "name": "Arroz 5kg 27",
+    "description": "Arroz branco tipo 1 pacote 5kg 27",
+    "value": 5299,
+    "inventory_quantity": 127,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "Marca",
+        "value": 27
+      },
+      {
+        "name": "Origem",
+        "value": 28
+      }
+    ],
+    "ean_code": "78912345670917",
+    "unit": {
+      "name": "UN",
+      "value": 1
+    }
+  },
+  {
+    "category_id": "1",
+    "id": "PROD123-28",
+    "name": "Arroz 5kg 28",
+    "description": "Arroz branco tipo 1 pacote 5kg 28",
+    "value": 5399,
+    "inventory_quantity": 128,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "Marca",
+        "value": 28
+      },
+      {
+        "name": "Origem",
+        "value": 29
+      }
+    ],
+    "ean_code": "78912345670918",
+    "unit": {
+      "name": "UN",
+      "value": 1
+    }
+  },
+  {
+    "category_id": "1",
+    "id": "PROD123-29",
+    "name": "Arroz 5kg 29",
+    "description": "Arroz branco tipo 1 pacote 5kg 29",
+    "value": 5499,
+    "inventory_quantity": 129,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "Marca",
+        "value": 29
+      },
+      {
+        "name": "Origem",
+        "value": 30
+      }
+    ],
+    "ean_code": "78912345670919",
+    "unit": {
+      "name": "UN",
+      "value": 1
+    }
+  },
+  {
+    "category_id": "1",
+    "id": "PROD123-30",
+    "name": "Arroz 5kg 30",
+    "description": "Arroz branco tipo 1 pacote 5kg 30",
+    "value": 5599,
+    "inventory_quantity": 130,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "Marca",
+        "value": 30
+      },
+      {
+        "name": "Origem",
+        "value": 31
+      }
+    ],
+    "ean_code": "78912345670920",
+    "unit": {
+      "name": "UN",
+      "value": 1
+    }
+  },
+  {
+    "category_id": "1",
+    "id": "PROD123-31",
+    "name": "Arroz 5kg 31",
+    "description": "Arroz branco tipo 1 pacote 5kg 31",
+    "value": 5699,
+    "inventory_quantity": 131,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "Marca",
+        "value": 31
+      },
+      {
+        "name": "Origem",
+        "value": 32
+      }
+    ],
+    "ean_code": "78912345670921",
+    "unit": {
+      "name": "UN",
+      "value": 1
+    }
+  },
+  {
+    "category_id": "1",
+    "id": "PROD123-32",
+    "name": "Arroz 5kg 32",
+    "description": "Arroz branco tipo 1 pacote 5kg 32",
+    "value": 5799,
+    "inventory_quantity": 132,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "Marca",
+        "value": 32
+      },
+      {
+        "name": "Origem",
+        "value": 33
+      }
+    ],
+    "ean_code": "78912345670922",
+    "unit": {
+      "name": "UN",
+      "value": 1
+    }
+  },
+  {
+    "category_id": "1",
+    "id": "PROD123-33",
+    "name": "Arroz 5kg 33",
+    "description": "Arroz branco tipo 1 pacote 5kg 33",
+    "value": 5899,
+    "inventory_quantity": 133,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "Marca",
+        "value": 33
+      },
+      {
+        "name": "Origem",
+        "value": 34
+      }
+    ],
+    "ean_code": "78912345670923",
+    "unit": {
+      "name": "UN",
+      "value": 1
+    }
+  },
+  {
+    "category_id": "1",
+    "id": "PROD123-34",
+    "name": "Arroz 5kg 34",
+    "description": "Arroz branco tipo 1 pacote 5kg 34",
+    "value": 5999,
+    "inventory_quantity": 134,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "Marca",
+        "value": 34
+      },
+      {
+        "name": "Origem",
+        "value": 35
+      }
+    ],
+    "ean_code": "78912345670924",
+    "unit": {
+      "name": "UN",
+      "value": 1
+    }
+  },
+  {
+    "category_id": "1",
+    "id": "PROD123-35",
+    "name": "Arroz 5kg 35",
+    "description": "Arroz branco tipo 1 pacote 5kg 35",
+    "value": 6099,
+    "inventory_quantity": 135,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "Marca",
+        "value": 35
+      },
+      {
+        "name": "Origem",
+        "value": 36
+      }
+    ],
+    "ean_code": "78912345670925",
+    "unit": {
+      "name": "UN",
+      "value": 1
+    }
+  },
+  {
+    "category_id": "1",
+    "id": "PROD123-36",
+    "name": "Arroz 5kg 36",
+    "description": "Arroz branco tipo 1 pacote 5kg 36",
+    "value": 6199,
+    "inventory_quantity": 136,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "Marca",
+        "value": 36
+      },
+      {
+        "name": "Origem",
+        "value": 37
+      }
+    ],
+    "ean_code": "78912345670926",
+    "unit": {
+      "name": "UN",
+      "value": 1
+    }
+  },
+  {
+    "category_id": "1",
+    "id": "PROD123-37",
+    "name": "Arroz 5kg 37",
+    "description": "Arroz branco tipo 1 pacote 5kg 37",
+    "value": 6299,
+    "inventory_quantity": 137,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "Marca",
+        "value": 37
+      },
+      {
+        "name": "Origem",
+        "value": 38
+      }
+    ],
+    "ean_code": "78912345670927",
+    "unit": {
+      "name": "UN",
+      "value": 1
+    }
+  },
+  {
+    "category_id": "1",
+    "id": "PROD123-38",
+    "name": "Arroz 5kg 38",
+    "description": "Arroz branco tipo 1 pacote 5kg 38",
+    "value": 6399,
+    "inventory_quantity": 138,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "Marca",
+        "value": 38
+      },
+      {
+        "name": "Origem",
+        "value": 39
+      }
+    ],
+    "ean_code": "78912345670928",
+    "unit": {
+      "name": "UN",
+      "value": 1
+    }
+  },
+  {
+    "category_id": "1",
+    "id": "PROD123-39",
+    "name": "Arroz 5kg 39",
+    "description": "Arroz branco tipo 1 pacote 5kg 39",
+    "value": 6499,
+    "inventory_quantity": 139,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "Marca",
+        "value": 39
+      },
+      {
+        "name": "Origem",
+        "value": 40
+      }
+    ],
+    "ean_code": "78912345670929",
+    "unit": {
+      "name": "UN",
+      "value": 1
+    }
+  },
+  {
+    "category_id": "1",
+    "id": "PROD123-40",
+    "name": "Arroz 5kg 40",
+    "description": "Arroz branco tipo 1 pacote 5kg 40",
+    "value": 6599,
+    "inventory_quantity": 140,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "Marca",
+        "value": 40
+      },
+      {
+        "name": "Origem",
+        "value": 41
+      }
+    ],
+    "ean_code": "78912345670930",
+    "unit": {
+      "name": "UN",
+      "value": 1
+    }
+  },
+  {
+    "category_id": "1",
+    "id": "PROD123-41",
+    "name": "Arroz 5kg 41",
+    "description": "Arroz branco tipo 1 pacote 5kg 41",
+    "value": 6699,
+    "inventory_quantity": 141,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "Marca",
+        "value": 41
+      },
+      {
+        "name": "Origem",
+        "value": 42
+      }
+    ],
+    "ean_code": "78912345670931",
+    "unit": {
+      "name": "UN",
+      "value": 1
+    }
+  },
+  {
+    "category_id": "1",
+    "id": "PROD123-42",
+    "name": "Arroz 5kg 42",
+    "description": "Arroz branco tipo 1 pacote 5kg 42",
+    "value": 6799,
+    "inventory_quantity": 142,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "Marca",
+        "value": 42
+      },
+      {
+        "name": "Origem",
+        "value": 43
+      }
+    ],
+    "ean_code": "78912345670932",
+    "unit": {
+      "name": "UN",
+      "value": 1
+    }
+  },
+  {
+    "category_id": "1",
+    "id": "PROD123-43",
+    "name": "Arroz 5kg 43",
+    "description": "Arroz branco tipo 1 pacote 5kg 43",
+    "value": 6899,
+    "inventory_quantity": 143,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "Marca",
+        "value": 43
+      },
+      {
+        "name": "Origem",
+        "value": 44
+      }
+    ],
+    "ean_code": "78912345670933",
+    "unit": {
+      "name": "UN",
+      "value": 1
+    }
+  },
+  {
+    "category_id": "1",
+    "id": "PROD123-44",
+    "name": "Arroz 5kg 44",
+    "description": "Arroz branco tipo 1 pacote 5kg 44",
+    "value": 6999,
+    "inventory_quantity": 144,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "Marca",
+        "value": 44
+      },
+      {
+        "name": "Origem",
+        "value": 45
+      }
+    ],
+    "ean_code": "78912345670934",
+    "unit": {
+      "name": "UN",
+      "value": 1
+    }
+  },
+  {
+    "category_id": "1",
+    "id": "PROD123-45",
+    "name": "Arroz 5kg 45",
+    "description": "Arroz branco tipo 1 pacote 5kg 45",
+    "value": 7099,
+    "inventory_quantity": 145,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "Marca",
+        "value": 45
+      },
+      {
+        "name": "Origem",
+        "value": 46
+      }
+    ],
+    "ean_code": "78912345670935",
+    "unit": {
+      "name": "UN",
+      "value": 1
+    }
+  },
+  {
+    "category_id": "1",
+    "id": "PROD123-46",
+    "name": "Arroz 5kg 46",
+    "description": "Arroz branco tipo 1 pacote 5kg 46",
+    "value": 7199,
+    "inventory_quantity": 146,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "Marca",
+        "value": 46
+      },
+      {
+        "name": "Origem",
+        "value": 47
+      }
+    ],
+    "ean_code": "78912345670936",
+    "unit": {
+      "name": "UN",
+      "value": 1
+    }
+  },
+  {
+    "category_id": "1",
+    "id": "PROD123-47",
+    "name": "Arroz 5kg 47",
+    "description": "Arroz branco tipo 1 pacote 5kg 47",
+    "value": 7299,
+    "inventory_quantity": 147,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "Marca",
+        "value": 47
+      },
+      {
+        "name": "Origem",
+        "value": 48
+      }
+    ],
+    "ean_code": "78912345670937",
+    "unit": {
+      "name": "UN",
+      "value": 1
+    }
+  },
+  {
+    "category_id": "1",
+    "id": "PROD123-48",
+    "name": "Arroz 5kg 48",
+    "description": "Arroz branco tipo 1 pacote 5kg 48",
+    "value": 7399,
+    "inventory_quantity": 148,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "Marca",
+        "value": 48
+      },
+      {
+        "name": "Origem",
+        "value": 49
+      }
+    ],
+    "ean_code": "78912345670938",
+    "unit": {
+      "name": "UN",
+      "value": 1
+    }
+  },
+  {
+    "category_id": "1",
+    "id": "PROD123-49",
+    "name": "Arroz 5kg 49",
+    "description": "Arroz branco tipo 1 pacote 5kg 49",
+    "value": 7499,
+    "inventory_quantity": 149,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "Marca",
+        "value": 49
+      },
+      {
+        "name": "Origem",
+        "value": 50
+      }
+    ],
+    "ean_code": "78912345670939",
+    "unit": {
+      "name": "UN",
+      "value": 1
+    }
+  },
+  {
+    "category_id": "1",
+    "id": "PROD123-50",
+    "name": "Arroz 5kg 50",
+    "description": "Arroz branco tipo 1 pacote 5kg 50",
+    "value": 7599,
+    "inventory_quantity": 150,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "Marca",
+        "value": 50
+      },
+      {
+        "name": "Origem",
+        "value": 51
+      }
+    ],
+    "ean_code": "78912345670940",
+    "unit": {
+      "name": "UN",
+      "value": 1
+    }
+  },
+  {
+    "category_id": "1",
+    "id": "PROD123-51",
+    "name": "Arroz 5kg 51",
+    "description": "Arroz branco tipo 1 pacote 5kg 51",
+    "value": 7699,
+    "inventory_quantity": 151,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "Marca",
+        "value": 51
+      },
+      {
+        "name": "Origem",
+        "value": 52
+      }
+    ],
+    "ean_code": "78912345670941",
+    "unit": {
+      "name": "UN",
+      "value": 1
+    }
+  },
+  {
+    "category_id": "1",
+    "id": "PROD123-52",
+    "name": "Arroz 5kg 52",
+    "description": "Arroz branco tipo 1 pacote 5kg 52",
+    "value": 7799,
+    "inventory_quantity": 152,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "Marca",
+        "value": 52
+      },
+      {
+        "name": "Origem",
+        "value": 53
+      }
+    ],
+    "ean_code": "78912345670942",
+    "unit": {
+      "name": "UN",
+      "value": 1
+    }
+  },
+  {
+    "category_id": "1",
+    "id": "PROD123-53",
+    "name": "Arroz 5kg 53",
+    "description": "Arroz branco tipo 1 pacote 5kg 53",
+    "value": 7899,
+    "inventory_quantity": 153,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "Marca",
+        "value": 53
+      },
+      {
+        "name": "Origem",
+        "value": 54
+      }
+    ],
+    "ean_code": "78912345670943",
+    "unit": {
+      "name": "UN",
+      "value": 1
+    }
+  },
+  {
+    "category_id": "1",
+    "id": "PROD123-54",
+    "name": "Arroz 5kg 54",
+    "description": "Arroz branco tipo 1 pacote 5kg 54",
+    "value": 7999,
+    "inventory_quantity": 154,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "Marca",
+        "value": 54
+      },
+      {
+        "name": "Origem",
+        "value": 55
+      }
+    ],
+    "ean_code": "78912345670944",
+    "unit": {
+      "name": "UN",
+      "value": 1
+    }
+  },
+  {
+    "category_id": "1",
+    "id": "PROD123-55",
+    "name": "Arroz 5kg 55",
+    "description": "Arroz branco tipo 1 pacote 5kg 55",
+    "value": 8099,
+    "inventory_quantity": 155,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "Marca",
+        "value": 55
+      },
+      {
+        "name": "Origem",
+        "value": 56
+      }
+    ],
+    "ean_code": "78912345670945",
+    "unit": {
+      "name": "UN",
+      "value": 1
+    }
+  },
+  {
+    "category_id": "1",
+    "id": "PROD123-56",
+    "name": "Arroz 5kg 56",
+    "description": "Arroz branco tipo 1 pacote 5kg 56",
+    "value": 8199,
+    "inventory_quantity": 156,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "Marca",
+        "value": 56
+      },
+      {
+        "name": "Origem",
+        "value": 57
+      }
+    ],
+    "ean_code": "78912345670946",
+    "unit": {
+      "name": "UN",
+      "value": 1
+    }
+  },
+  {
+    "category_id": "1",
+    "id": "PROD123-57",
+    "name": "Arroz 5kg 57",
+    "description": "Arroz branco tipo 1 pacote 5kg 57",
+    "value": 8299,
+    "inventory_quantity": 157,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "Marca",
+        "value": 57
+      },
+      {
+        "name": "Origem",
+        "value": 58
+      }
+    ],
+    "ean_code": "78912345670947",
+    "unit": {
+      "name": "UN",
+      "value": 1
+    }
+  },
+  {
+    "category_id": "1",
+    "id": "PROD123-58",
+    "name": "Arroz 5kg 58",
+    "description": "Arroz branco tipo 1 pacote 5kg 58",
+    "value": 8399,
+    "inventory_quantity": 158,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "Marca",
+        "value": 58
+      },
+      {
+        "name": "Origem",
+        "value": 59
+      }
+    ],
+    "ean_code": "78912345670948",
+    "unit": {
+      "name": "UN",
+      "value": 1
+    }
+  },
+  {
+    "category_id": "1",
+    "id": "PROD123-59",
+    "name": "Arroz 5kg 59",
+    "description": "Arroz branco tipo 1 pacote 5kg 59",
+    "value": 8499,
+    "inventory_quantity": 159,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "Marca",
+        "value": 59
+      },
+      {
+        "name": "Origem",
+        "value": 60
+      }
+    ],
+    "ean_code": "78912345670949",
+    "unit": {
+      "name": "UN",
+      "value": 1
+    }
+  },
+  {
+    "category_id": "1",
+    "id": "PROD123-60",
+    "name": "Arroz 5kg 60",
+    "description": "Arroz branco tipo 1 pacote 5kg 60",
+    "value": 8599,
+    "inventory_quantity": 160,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "Marca",
+        "value": 60
+      },
+      {
+        "name": "Origem",
+        "value": 61
+      }
+    ],
+    "ean_code": "78912345670950",
+    "unit": {
+      "name": "UN",
+      "value": 1
+    }
+  },
+  {
+    "category_id": "1",
+    "id": "PROD123-61",
+    "name": "Arroz 5kg 61",
+    "description": "Arroz branco tipo 1 pacote 5kg 61",
+    "value": 8699,
+    "inventory_quantity": 161,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "Marca",
+        "value": 61
+      },
+      {
+        "name": "Origem",
+        "value": 62
+      }
+    ],
+    "ean_code": "78912345670951",
+    "unit": {
+      "name": "UN",
+      "value": 1
+    }
+  },
+  {
+    "category_id": "1",
+    "id": "PROD123-62",
+    "name": "Arroz 5kg 62",
+    "description": "Arroz branco tipo 1 pacote 5kg 62",
+    "value": 8799,
+    "inventory_quantity": 162,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "Marca",
+        "value": 62
+      },
+      {
+        "name": "Origem",
+        "value": 63
+      }
+    ],
+    "ean_code": "78912345670952",
+    "unit": {
+      "name": "UN",
+      "value": 1
+    }
+  },
+  {
+    "category_id": "1",
+    "id": "PROD123-63",
+    "name": "Arroz 5kg 63",
+    "description": "Arroz branco tipo 1 pacote 5kg 63",
+    "value": 8899,
+    "inventory_quantity": 163,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "Marca",
+        "value": 63
+      },
+      {
+        "name": "Origem",
+        "value": 64
+      }
+    ],
+    "ean_code": "78912345670953",
+    "unit": {
+      "name": "UN",
+      "value": 1
+    }
+  },
+  {
+    "category_id": "1",
+    "id": "PROD123-64",
+    "name": "Arroz 5kg 64",
+    "description": "Arroz branco tipo 1 pacote 5kg 64",
+    "value": 8999,
+    "inventory_quantity": 164,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "Marca",
+        "value": 64
+      },
+      {
+        "name": "Origem",
+        "value": 65
+      }
+    ],
+    "ean_code": "78912345670954",
+    "unit": {
+      "name": "UN",
+      "value": 1
+    }
+  },
+  {
+    "category_id": "1",
+    "id": "PROD123-65",
+    "name": "Arroz 5kg 65",
+    "description": "Arroz branco tipo 1 pacote 5kg 65",
+    "value": 9099,
+    "inventory_quantity": 165,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "Marca",
+        "value": 65
+      },
+      {
+        "name": "Origem",
+        "value": 66
+      }
+    ],
+    "ean_code": "78912345670955",
+    "unit": {
+      "name": "UN",
+      "value": 1
+    }
+  },
+  {
+    "category_id": "1",
+    "id": "PROD123-66",
+    "name": "Arroz 5kg 66",
+    "description": "Arroz branco tipo 1 pacote 5kg 66",
+    "value": 9199,
+    "inventory_quantity": 166,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "Marca",
+        "value": 66
+      },
+      {
+        "name": "Origem",
+        "value": 67
+      }
+    ],
+    "ean_code": "78912345670956",
+    "unit": {
+      "name": "UN",
+      "value": 1
+    }
+  },
+  {
+    "category_id": "1",
+    "id": "PROD123-67",
+    "name": "Arroz 5kg 67",
+    "description": "Arroz branco tipo 1 pacote 5kg 67",
+    "value": 9299,
+    "inventory_quantity": 167,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "Marca",
+        "value": 67
+      },
+      {
+        "name": "Origem",
+        "value": 68
+      }
+    ],
+    "ean_code": "78912345670957",
+    "unit": {
+      "name": "UN",
+      "value": 1
+    }
+  },
+  {
+    "category_id": "1",
+    "id": "PROD123-68",
+    "name": "Arroz 5kg 68",
+    "description": "Arroz branco tipo 1 pacote 5kg 68",
+    "value": 9399,
+    "inventory_quantity": 168,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "Marca",
+        "value": 68
+      },
+      {
+        "name": "Origem",
+        "value": 69
+      }
+    ],
+    "ean_code": "78912345670958",
+    "unit": {
+      "name": "UN",
+      "value": 1
+    }
+  },
+  {
+    "category_id": "1",
+    "id": "PROD123-69",
+    "name": "Arroz 5kg 69",
+    "description": "Arroz branco tipo 1 pacote 5kg 69",
+    "value": 9499,
+    "inventory_quantity": 169,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "Marca",
+        "value": 69
+      },
+      {
+        "name": "Origem",
+        "value": 70
+      }
+    ],
+    "ean_code": "78912345670959",
+    "unit": {
+      "name": "UN",
+      "value": 1
+    }
+  },
+  {
+    "category_id": "1",
+    "id": "PROD123-70",
+    "name": "Arroz 5kg 70",
+    "description": "Arroz branco tipo 1 pacote 5kg 70",
+    "value": 9599,
+    "inventory_quantity": 170,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "Marca",
+        "value": 70
+      },
+      {
+        "name": "Origem",
+        "value": 71
+      }
+    ],
+    "ean_code": "78912345670960",
+    "unit": {
+      "name": "UN",
+      "value": 1
+    }
+  },
+  {
+    "category_id": "1",
+    "id": "PROD123-71",
+    "name": "Arroz 5kg 71",
+    "description": "Arroz branco tipo 1 pacote 5kg 71",
+    "value": 9699,
+    "inventory_quantity": 171,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "Marca",
+        "value": 71
+      },
+      {
+        "name": "Origem",
+        "value": 72
+      }
+    ],
+    "ean_code": "78912345670961",
+    "unit": {
+      "name": "UN",
+      "value": 1
+    }
+  },
+  {
+    "category_id": "1",
+    "id": "PROD123-72",
+    "name": "Arroz 5kg 72",
+    "description": "Arroz branco tipo 1 pacote 5kg 72",
+    "value": 9799,
+    "inventory_quantity": 172,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "Marca",
+        "value": 72
+      },
+      {
+        "name": "Origem",
+        "value": 73
+      }
+    ],
+    "ean_code": "78912345670962",
+    "unit": {
+      "name": "UN",
+      "value": 1
+    }
+  },
+  {
+    "category_id": "1",
+    "id": "PROD123-73",
+    "name": "Arroz 5kg 73",
+    "description": "Arroz branco tipo 1 pacote 5kg 73",
+    "value": 9899,
+    "inventory_quantity": 173,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "Marca",
+        "value": 73
+      },
+      {
+        "name": "Origem",
+        "value": 74
+      }
+    ],
+    "ean_code": "78912345670963",
+    "unit": {
+      "name": "UN",
+      "value": 1
+    }
+  },
+  {
+    "category_id": "1",
+    "id": "PROD123-74",
+    "name": "Arroz 5kg 74",
+    "description": "Arroz branco tipo 1 pacote 5kg 74",
+    "value": 9999,
+    "inventory_quantity": 174,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "Marca",
+        "value": 74
+      },
+      {
+        "name": "Origem",
+        "value": 75
+      }
+    ],
+    "ean_code": "78912345670964",
+    "unit": {
+      "name": "UN",
+      "value": 1
+    }
+  },
+  {
+    "category_id": "1",
+    "id": "PROD123-75",
+    "name": "Arroz 5kg 75",
+    "description": "Arroz branco tipo 1 pacote 5kg 75",
+    "value": 10099,
+    "inventory_quantity": 175,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "Marca",
+        "value": 75
+      },
+      {
+        "name": "Origem",
+        "value": 76
+      }
+    ],
+    "ean_code": "78912345670965",
+    "unit": {
+      "name": "UN",
+      "value": 1
+    }
+  },
+  {
+    "category_id": "1",
+    "id": "PROD123-76",
+    "name": "Arroz 5kg 76",
+    "description": "Arroz branco tipo 1 pacote 5kg 76",
+    "value": 10199,
+    "inventory_quantity": 176,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "Marca",
+        "value": 76
+      },
+      {
+        "name": "Origem",
+        "value": 77
+      }
+    ],
+    "ean_code": "78912345670966",
+    "unit": {
+      "name": "UN",
+      "value": 1
+    }
+  },
+  {
+    "category_id": "1",
+    "id": "PROD123-77",
+    "name": "Arroz 5kg 77",
+    "description": "Arroz branco tipo 1 pacote 5kg 77",
+    "value": 10299,
+    "inventory_quantity": 177,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "Marca",
+        "value": 77
+      },
+      {
+        "name": "Origem",
+        "value": 78
+      }
+    ],
+    "ean_code": "78912345670967",
+    "unit": {
+      "name": "UN",
+      "value": 1
+    }
+  },
+  {
+    "category_id": "1",
+    "id": "PROD123-78",
+    "name": "Arroz 5kg 78",
+    "description": "Arroz branco tipo 1 pacote 5kg 78",
+    "value": 10399,
+    "inventory_quantity": 178,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "Marca",
+        "value": 78
+      },
+      {
+        "name": "Origem",
+        "value": 79
+      }
+    ],
+    "ean_code": "78912345670968",
+    "unit": {
+      "name": "UN",
+      "value": 1
+    }
+  },
+  {
+    "category_id": "1",
+    "id": "PROD123-79",
+    "name": "Arroz 5kg 79",
+    "description": "Arroz branco tipo 1 pacote 5kg 79",
+    "value": 10499,
+    "inventory_quantity": 179,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "Marca",
+        "value": 79
+      },
+      {
+        "name": "Origem",
+        "value": 80
+      }
+    ],
+    "ean_code": "78912345670969",
+    "unit": {
+      "name": "UN",
+      "value": 1
+    }
+  },
+  {
+    "category_id": "1",
+    "id": "PROD123-80",
+    "name": "Arroz 5kg 80",
+    "description": "Arroz branco tipo 1 pacote 5kg 80",
+    "value": 10599,
+    "inventory_quantity": 180,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "Marca",
+        "value": 80
+      },
+      {
+        "name": "Origem",
+        "value": 81
+      }
+    ],
+    "ean_code": "78912345670970",
+    "unit": {
+      "name": "UN",
+      "value": 1
+    }
+  },
+  {
+    "category_id": "1",
+    "id": "PROD123-81",
+    "name": "Arroz 5kg 81",
+    "description": "Arroz branco tipo 1 pacote 5kg 81",
+    "value": 10699,
+    "inventory_quantity": 181,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "Marca",
+        "value": 81
+      },
+      {
+        "name": "Origem",
+        "value": 82
+      }
+    ],
+    "ean_code": "78912345670971",
+    "unit": {
+      "name": "UN",
+      "value": 1
+    }
+  },
+  {
+    "category_id": "1",
+    "id": "PROD123-82",
+    "name": "Arroz 5kg 82",
+    "description": "Arroz branco tipo 1 pacote 5kg 82",
+    "value": 10799,
+    "inventory_quantity": 182,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "Marca",
+        "value": 82
+      },
+      {
+        "name": "Origem",
+        "value": 83
+      }
+    ],
+    "ean_code": "78912345670972",
+    "unit": {
+      "name": "UN",
+      "value": 1
+    }
+  },
+  {
+    "category_id": "1",
+    "id": "PROD123-83",
+    "name": "Arroz 5kg 83",
+    "description": "Arroz branco tipo 1 pacote 5kg 83",
+    "value": 10899,
+    "inventory_quantity": 183,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "Marca",
+        "value": 83
+      },
+      {
+        "name": "Origem",
+        "value": 84
+      }
+    ],
+    "ean_code": "78912345670973",
+    "unit": {
+      "name": "UN",
+      "value": 1
+    }
+  },
+  {
+    "category_id": "1",
+    "id": "PROD123-84",
+    "name": "Arroz 5kg 84",
+    "description": "Arroz branco tipo 1 pacote 5kg 84",
+    "value": 10999,
+    "inventory_quantity": 184,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "Marca",
+        "value": 84
+      },
+      {
+        "name": "Origem",
+        "value": 85
+      }
+    ],
+    "ean_code": "78912345670974",
+    "unit": {
+      "name": "UN",
+      "value": 1
+    }
+  },
+  {
+    "category_id": "1",
+    "id": "PROD123-85",
+    "name": "Arroz 5kg 85",
+    "description": "Arroz branco tipo 1 pacote 5kg 85",
+    "value": 11099,
+    "inventory_quantity": 185,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "Marca",
+        "value": 85
+      },
+      {
+        "name": "Origem",
+        "value": 86
+      }
+    ],
+    "ean_code": "78912345670975",
+    "unit": {
+      "name": "UN",
+      "value": 1
+    }
+  },
+  {
+    "category_id": "1",
+    "id": "PROD123-86",
+    "name": "Arroz 5kg 86",
+    "description": "Arroz branco tipo 1 pacote 5kg 86",
+    "value": 11199,
+    "inventory_quantity": 186,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "Marca",
+        "value": 86
+      },
+      {
+        "name": "Origem",
+        "value": 87
+      }
+    ],
+    "ean_code": "78912345670976",
+    "unit": {
+      "name": "UN",
+      "value": 1
+    }
+  },
+  {
+    "category_id": "1",
+    "id": "PROD123-87",
+    "name": "Arroz 5kg 87",
+    "description": "Arroz branco tipo 1 pacote 5kg 87",
+    "value": 11299,
+    "inventory_quantity": 187,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "Marca",
+        "value": 87
+      },
+      {
+        "name": "Origem",
+        "value": 88
+      }
+    ],
+    "ean_code": "78912345670977",
+    "unit": {
+      "name": "UN",
+      "value": 1
+    }
+  },
+  {
+    "category_id": "1",
+    "id": "PROD123-88",
+    "name": "Arroz 5kg 88",
+    "description": "Arroz branco tipo 1 pacote 5kg 88",
+    "value": 11399,
+    "inventory_quantity": 188,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "Marca",
+        "value": 88
+      },
+      {
+        "name": "Origem",
+        "value": 89
+      }
+    ],
+    "ean_code": "78912345670978",
+    "unit": {
+      "name": "UN",
+      "value": 1
+    }
+  },
+  {
+    "category_id": "1",
+    "id": "PROD123-89",
+    "name": "Arroz 5kg 89",
+    "description": "Arroz branco tipo 1 pacote 5kg 89",
+    "value": 11499,
+    "inventory_quantity": 189,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "Marca",
+        "value": 89
+      },
+      {
+        "name": "Origem",
+        "value": 90
+      }
+    ],
+    "ean_code": "78912345670979",
+    "unit": {
+      "name": "UN",
+      "value": 1
+    }
+  },
+  {
+    "category_id": "1",
+    "id": "PROD123-90",
+    "name": "Arroz 5kg 90",
+    "description": "Arroz branco tipo 1 pacote 5kg 90",
+    "value": 11599,
+    "inventory_quantity": 190,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "Marca",
+        "value": 90
+      },
+      {
+        "name": "Origem",
+        "value": 91
+      }
+    ],
+    "ean_code": "78912345670980",
+    "unit": {
+      "name": "UN",
+      "value": 1
+    }
+  },
+  {
+    "category_id": "1",
+    "id": "PROD123-91",
+    "name": "Arroz 5kg 91",
+    "description": "Arroz branco tipo 1 pacote 5kg 91",
+    "value": 11699,
+    "inventory_quantity": 191,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "Marca",
+        "value": 91
+      },
+      {
+        "name": "Origem",
+        "value": 92
+      }
+    ],
+    "ean_code": "78912345670981",
+    "unit": {
+      "name": "UN",
+      "value": 1
+    }
+  },
+  {
+    "category_id": "1",
+    "id": "PROD123-92",
+    "name": "Arroz 5kg 92",
+    "description": "Arroz branco tipo 1 pacote 5kg 92",
+    "value": 11799,
+    "inventory_quantity": 192,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "Marca",
+        "value": 92
+      },
+      {
+        "name": "Origem",
+        "value": 93
+      }
+    ],
+    "ean_code": "78912345670982",
+    "unit": {
+      "name": "UN",
+      "value": 1
+    }
+  },
+  {
+    "category_id": "1",
+    "id": "PROD123-93",
+    "name": "Arroz 5kg 93",
+    "description": "Arroz branco tipo 1 pacote 5kg 93",
+    "value": 11899,
+    "inventory_quantity": 193,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "Marca",
+        "value": 93
+      },
+      {
+        "name": "Origem",
+        "value": 94
+      }
+    ],
+    "ean_code": "78912345670983",
+    "unit": {
+      "name": "UN",
+      "value": 1
+    }
+  },
+  {
+    "category_id": "1",
+    "id": "PROD123-94",
+    "name": "Arroz 5kg 94",
+    "description": "Arroz branco tipo 1 pacote 5kg 94",
+    "value": 11999,
+    "inventory_quantity": 194,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "Marca",
+        "value": 94
+      },
+      {
+        "name": "Origem",
+        "value": 95
+      }
+    ],
+    "ean_code": "78912345670984",
+    "unit": {
+      "name": "UN",
+      "value": 1
+    }
+  },
+  {
+    "category_id": "1",
+    "id": "PROD123-95",
+    "name": "Arroz 5kg 95",
+    "description": "Arroz branco tipo 1 pacote 5kg 95",
+    "value": 12099,
+    "inventory_quantity": 195,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "Marca",
+        "value": 95
+      },
+      {
+        "name": "Origem",
+        "value": 96
+      }
+    ],
+    "ean_code": "78912345670985",
+    "unit": {
+      "name": "UN",
+      "value": 1
+    }
+  },
+  {
+    "category_id": "1",
+    "id": "PROD123-96",
+    "name": "Arroz 5kg 96",
+    "description": "Arroz branco tipo 1 pacote 5kg 96",
+    "value": 12199,
+    "inventory_quantity": 196,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "Marca",
+        "value": 96
+      },
+      {
+        "name": "Origem",
+        "value": 97
+      }
+    ],
+    "ean_code": "78912345670986",
+    "unit": {
+      "name": "UN",
+      "value": 1
+    }
+  },
+  {
+    "category_id": "1",
+    "id": "PROD123-97",
+    "name": "Arroz 5kg 97",
+    "description": "Arroz branco tipo 1 pacote 5kg 97",
+    "value": 12299,
+    "inventory_quantity": 197,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "Marca",
+        "value": 97
+      },
+      {
+        "name": "Origem",
+        "value": 98
+      }
+    ],
+    "ean_code": "78912345670987",
+    "unit": {
+      "name": "UN",
+      "value": 1
+    }
+  },
+  {
+    "category_id": "1",
+    "id": "PROD123-98",
+    "name": "Arroz 5kg 98",
+    "description": "Arroz branco tipo 1 pacote 5kg 98",
+    "value": 12399,
+    "inventory_quantity": 198,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "Marca",
+        "value": 98
+      },
+      {
+        "name": "Origem",
+        "value": 99
+      }
+    ],
+    "ean_code": "78912345670988",
+    "unit": {
+      "name": "UN",
+      "value": 1
+    }
+  },
+  {
+    "category_id": "1",
+    "id": "PROD123-99",
+    "name": "Arroz 5kg 99",
+    "description": "Arroz branco tipo 1 pacote 5kg 99",
+    "value": 12499,
+    "inventory_quantity": 199,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "Marca",
+        "value": 99
+      },
+      {
+        "name": "Origem",
+        "value": 100
+      }
+    ],
+    "ean_code": "78912345670989",
+    "unit": {
+      "name": "UN",
+      "value": 1
+    }
+  },
+  {
+    "category_id": "1",
+    "id": "PROD123-100",
+    "name": "Arroz 5kg 100",
+    "description": "Arroz branco tipo 1 pacote 5kg 100",
+    "value": 12599,
+    "inventory_quantity": 200,
+    "is_inventory_active": true,
+    "product_details": [
+      {
+        "name": "Marca",
+        "value": 100
+      },
+      {
+        "name": "Origem",
+        "value": 101
+      }
+    ],
+    "ean_code": "78912345670990",
+    "unit": {
+      "name": "UN",
+      "value": 1
+    }
+  },
+  {
+    "category_id": "3",
+    "id": "PROD456-1",
+    "name": "Cachorro quente 1",
+    "description": "Cachorro quente tradicional 1",
+    "value": 5090,
+    "inventory_quantity": 21,
+    "is_inventory_active": true,
+    "tags": [
+      "SALGADA"
+    ],
+    "adittionals": [
+      {
+        "product_id": "ADICIONAL1"
+      },
+      {
+        "product_id": "ADICIONAL2"
+      }
+    ]
+  },
+  {
+    "category_id": "3",
+    "id": "PROD456-2",
+    "name": "Cachorro quente 2",
+    "description": "Cachorro quente tradicional 2",
+    "value": 5190,
+    "inventory_quantity": 22,
+    "is_inventory_active": true,
+    "tags": [
+      "SALGADA"
+    ],
+    "adittionals": [
+      {
+        "product_id": "ADICIONAL1"
+      },
+      {
+        "product_id": "ADICIONAL2"
+      }
+    ]
+  },
+  {
+    "category_id": "3",
+    "id": "PROD456-3",
+    "name": "Cachorro quente 3",
+    "description": "Cachorro quente tradicional 3",
+    "value": 5290,
+    "inventory_quantity": 23,
+    "is_inventory_active": true,
+    "tags": [
+      "SALGADA"
+    ],
+    "adittionals": [
+      {
+        "product_id": "ADICIONAL1"
+      },
+      {
+        "product_id": "ADICIONAL2"
+      }
+    ]
+  },
+  {
+    "category_id": "3",
+    "id": "PROD456-4",
+    "name": "Cachorro quente 4",
+    "description": "Cachorro quente tradicional 4",
+    "value": 5390,
+    "inventory_quantity": 24,
+    "is_inventory_active": true,
+    "tags": [
+      "SALGADA"
+    ],
+    "adittionals": [
+      {
+        "product_id": "ADICIONAL1"
+      },
+      {
+        "product_id": "ADICIONAL2"
+      }
+    ]
+  },
+  {
+    "category_id": "3",
+    "id": "PROD456-5",
+    "name": "Cachorro quente 5",
+    "description": "Cachorro quente tradicional 5",
+    "value": 5490,
+    "inventory_quantity": 25,
+    "is_inventory_active": true,
+    "tags": [
+      "SALGADA"
+    ],
+    "adittionals": [
+      {
+        "product_id": "ADICIONAL1"
+      },
+      {
+        "product_id": "ADICIONAL2"
+      }
+    ]
+  },
+  {
+    "category_id": "3",
+    "id": "PROD456-6",
+    "name": "Cachorro quente 6",
+    "description": "Cachorro quente tradicional 6",
+    "value": 5590,
+    "inventory_quantity": 26,
+    "is_inventory_active": true,
+    "tags": [
+      "SALGADA"
+    ],
+    "adittionals": [
+      {
+        "product_id": "ADICIONAL1"
+      },
+      {
+        "product_id": "ADICIONAL2"
+      }
+    ]
+  },
+  {
+    "category_id": "3",
+    "id": "PROD456-7",
+    "name": "Cachorro quente 7",
+    "description": "Cachorro quente tradicional 7",
+    "value": 5690,
+    "inventory_quantity": 27,
+    "is_inventory_active": true,
+    "tags": [
+      "SALGADA"
+    ],
+    "adittionals": [
+      {
+        "product_id": "ADICIONAL1"
+      },
+      {
+        "product_id": "ADICIONAL2"
+      }
+    ]
+  },
+  {
+    "category_id": "3",
+    "id": "PROD456-8",
+    "name": "Cachorro quente 8",
+    "description": "Cachorro quente tradicional 8",
+    "value": 5790,
+    "inventory_quantity": 28,
+    "is_inventory_active": true,
+    "tags": [
+      "SALGADA"
+    ],
+    "adittionals": [
+      {
+        "product_id": "ADICIONAL1"
+      },
+      {
+        "product_id": "ADICIONAL2"
+      }
+    ]
+  },
+  {
+    "category_id": "3",
+    "id": "PROD456-9",
+    "name": "Cachorro quente 9",
+    "description": "Cachorro quente tradicional 9",
+    "value": 5890,
+    "inventory_quantity": 29,
+    "is_inventory_active": true,
+    "tags": [
+      "SALGADA"
+    ],
+    "adittionals": [
+      {
+        "product_id": "ADICIONAL1"
+      },
+      {
+        "product_id": "ADICIONAL2"
+      }
+    ]
+  },
+  {
+    "category_id": "3",
+    "id": "PROD456-10",
+    "name": "Cachorro quente 10",
+    "description": "Cachorro quente tradicional 10",
+    "value": 5990,
+    "inventory_quantity": 30,
+    "is_inventory_active": true,
+    "tags": [
+      "SALGADA"
+    ],
+    "adittionals": [
+      {
+        "product_id": "ADICIONAL1"
+      },
+      {
+        "product_id": "ADICIONAL2"
+      }
+    ]
+  },
+  {
+    "category_id": "3",
+    "id": "PROD456-11",
+    "name": "Cachorro quente 11",
+    "description": "Cachorro quente tradicional 11",
+    "value": 6090,
+    "inventory_quantity": 31,
+    "is_inventory_active": true,
+    "tags": [
+      "SALGADA"
+    ],
+    "adittionals": [
+      {
+        "product_id": "ADICIONAL1"
+      },
+      {
+        "product_id": "ADICIONAL2"
+      }
+    ]
+  },
+  {
+    "category_id": "3",
+    "id": "PROD456-12",
+    "name": "Cachorro quente 12",
+    "description": "Cachorro quente tradicional 12",
+    "value": 6190,
+    "inventory_quantity": 32,
+    "is_inventory_active": true,
+    "tags": [
+      "SALGADA"
+    ],
+    "adittionals": [
+      {
+        "product_id": "ADICIONAL1"
+      },
+      {
+        "product_id": "ADICIONAL2"
+      }
+    ]
+  },
+  {
+    "category_id": "3",
+    "id": "PROD456-13",
+    "name": "Cachorro quente 13",
+    "description": "Cachorro quente tradicional 13",
+    "value": 6290,
+    "inventory_quantity": 33,
+    "is_inventory_active": true,
+    "tags": [
+      "SALGADA"
+    ],
+    "adittionals": [
+      {
+        "product_id": "ADICIONAL1"
+      },
+      {
+        "product_id": "ADICIONAL2"
+      }
+    ]
+  },
+  {
+    "category_id": "3",
+    "id": "PROD456-14",
+    "name": "Cachorro quente 14",
+    "description": "Cachorro quente tradicional 14",
+    "value": 6390,
+    "inventory_quantity": 34,
+    "is_inventory_active": true,
+    "tags": [
+      "SALGADA"
+    ],
+    "adittionals": [
+      {
+        "product_id": "ADICIONAL1"
+      },
+      {
+        "product_id": "ADICIONAL2"
+      }
+    ]
+  },
+  {
+    "category_id": "3",
+    "id": "PROD456-15",
+    "name": "Cachorro quente 15",
+    "description": "Cachorro quente tradicional 15",
+    "value": 6490,
+    "inventory_quantity": 35,
+    "is_inventory_active": true,
+    "tags": [
+      "SALGADA"
+    ],
+    "adittionals": [
+      {
+        "product_id": "ADICIONAL1"
+      },
+      {
+        "product_id": "ADICIONAL2"
+      }
+    ]
+  },
+  {
+    "category_id": "3",
+    "id": "PROD456-16",
+    "name": "Cachorro quente 16",
+    "description": "Cachorro quente tradicional 16",
+    "value": 6590,
+    "inventory_quantity": 36,
+    "is_inventory_active": true,
+    "tags": [
+      "SALGADA"
+    ],
+    "adittionals": [
+      {
+        "product_id": "ADICIONAL1"
+      },
+      {
+        "product_id": "ADICIONAL2"
+      }
+    ]
+  },
+  {
+    "category_id": "3",
+    "id": "PROD456-17",
+    "name": "Cachorro quente 17",
+    "description": "Cachorro quente tradicional 17",
+    "value": 6690,
+    "inventory_quantity": 37,
+    "is_inventory_active": true,
+    "tags": [
+      "SALGADA"
+    ],
+    "adittionals": [
+      {
+        "product_id": "ADICIONAL1"
+      },
+      {
+        "product_id": "ADICIONAL2"
+      }
+    ]
+  },
+  {
+    "category_id": "3",
+    "id": "PROD456-18",
+    "name": "Cachorro quente 18",
+    "description": "Cachorro quente tradicional 18",
+    "value": 6790,
+    "inventory_quantity": 38,
+    "is_inventory_active": true,
+    "tags": [
+      "SALGADA"
+    ],
+    "adittionals": [
+      {
+        "product_id": "ADICIONAL1"
+      },
+      {
+        "product_id": "ADICIONAL2"
+      }
+    ]
+  },
+  {
+    "category_id": "3",
+    "id": "PROD456-19",
+    "name": "Cachorro quente 19",
+    "description": "Cachorro quente tradicional 19",
+    "value": 6890,
+    "inventory_quantity": 39,
+    "is_inventory_active": true,
+    "tags": [
+      "SALGADA"
+    ],
+    "adittionals": [
+      {
+        "product_id": "ADICIONAL1"
+      },
+      {
+        "product_id": "ADICIONAL2"
+      }
+    ]
+  },
+  {
+    "category_id": "3",
+    "id": "PROD456-20",
+    "name": "Cachorro quente 20",
+    "description": "Cachorro quente tradicional 20",
+    "value": 6990,
+    "inventory_quantity": 40,
+    "is_inventory_active": true,
+    "tags": [
+      "SALGADA"
+    ],
+    "adittionals": [
+      {
+        "product_id": "ADICIONAL1"
+      },
+      {
+        "product_id": "ADICIONAL2"
+      }
+    ]
+  },
+  {
+    "category_id": "3",
+    "id": "PROD456-21",
+    "name": "Cachorro quente 21",
+    "description": "Cachorro quente tradicional 21",
+    "value": 7090,
+    "inventory_quantity": 41,
+    "is_inventory_active": true,
+    "tags": [
+      "SALGADA"
+    ],
+    "adittionals": [
+      {
+        "product_id": "ADICIONAL1"
+      },
+      {
+        "product_id": "ADICIONAL2"
+      }
+    ]
+  },
+  {
+    "category_id": "3",
+    "id": "PROD456-22",
+    "name": "Cachorro quente 22",
+    "description": "Cachorro quente tradicional 22",
+    "value": 7190,
+    "inventory_quantity": 42,
+    "is_inventory_active": true,
+    "tags": [
+      "SALGADA"
+    ],
+    "adittionals": [
+      {
+        "product_id": "ADICIONAL1"
+      },
+      {
+        "product_id": "ADICIONAL2"
+      }
+    ]
+  },
+  {
+    "category_id": "3",
+    "id": "PROD456-23",
+    "name": "Cachorro quente 23",
+    "description": "Cachorro quente tradicional 23",
+    "value": 7290,
+    "inventory_quantity": 43,
+    "is_inventory_active": true,
+    "tags": [
+      "SALGADA"
+    ],
+    "adittionals": [
+      {
+        "product_id": "ADICIONAL1"
+      },
+      {
+        "product_id": "ADICIONAL2"
+      }
+    ]
+  },
+  {
+    "category_id": "3",
+    "id": "PROD456-24",
+    "name": "Cachorro quente 24",
+    "description": "Cachorro quente tradicional 24",
+    "value": 7390,
+    "inventory_quantity": 44,
+    "is_inventory_active": true,
+    "tags": [
+      "SALGADA"
+    ],
+    "adittionals": [
+      {
+        "product_id": "ADICIONAL1"
+      },
+      {
+        "product_id": "ADICIONAL2"
+      }
+    ]
+  },
+  {
+    "category_id": "3",
+    "id": "PROD456-25",
+    "name": "Cachorro quente 25",
+    "description": "Cachorro quente tradicional 25",
+    "value": 7490,
+    "inventory_quantity": 45,
+    "is_inventory_active": true,
+    "tags": [
+      "SALGADA"
+    ],
+    "adittionals": [
+      {
+        "product_id": "ADICIONAL1"
+      },
+      {
+        "product_id": "ADICIONAL2"
+      }
+    ]
+  },
+  {
+    "category_id": "3",
+    "id": "PROD456-26",
+    "name": "Cachorro quente 26",
+    "description": "Cachorro quente tradicional 26",
+    "value": 7590,
+    "inventory_quantity": 46,
+    "is_inventory_active": true,
+    "tags": [
+      "SALGADA"
+    ],
+    "adittionals": [
+      {
+        "product_id": "ADICIONAL1"
+      },
+      {
+        "product_id": "ADICIONAL2"
+      }
+    ]
+  },
+  {
+    "category_id": "3",
+    "id": "PROD456-27",
+    "name": "Cachorro quente 27",
+    "description": "Cachorro quente tradicional 27",
+    "value": 7690,
+    "inventory_quantity": 47,
+    "is_inventory_active": true,
+    "tags": [
+      "SALGADA"
+    ],
+    "adittionals": [
+      {
+        "product_id": "ADICIONAL1"
+      },
+      {
+        "product_id": "ADICIONAL2"
+      }
+    ]
+  },
+  {
+    "category_id": "3",
+    "id": "PROD456-28",
+    "name": "Cachorro quente 28",
+    "description": "Cachorro quente tradicional 28",
+    "value": 7790,
+    "inventory_quantity": 48,
+    "is_inventory_active": true,
+    "tags": [
+      "SALGADA"
+    ],
+    "adittionals": [
+      {
+        "product_id": "ADICIONAL1"
+      },
+      {
+        "product_id": "ADICIONAL2"
+      }
+    ]
+  },
+  {
+    "category_id": "3",
+    "id": "PROD456-29",
+    "name": "Cachorro quente 29",
+    "description": "Cachorro quente tradicional 29",
+    "value": 7890,
+    "inventory_quantity": 49,
+    "is_inventory_active": true,
+    "tags": [
+      "SALGADA"
+    ],
+    "adittionals": [
+      {
+        "product_id": "ADICIONAL1"
+      },
+      {
+        "product_id": "ADICIONAL2"
+      }
+    ]
+  },
+  {
+    "category_id": "3",
+    "id": "PROD456-30",
+    "name": "Cachorro quente 30",
+    "description": "Cachorro quente tradicional 30",
+    "value": 7990,
+    "inventory_quantity": 50,
+    "is_inventory_active": true,
+    "tags": [
+      "SALGADA"
+    ],
+    "adittionals": [
+      {
+        "product_id": "ADICIONAL1"
+      },
+      {
+        "product_id": "ADICIONAL2"
+      }
+    ]
+  },
+  {
+    "category_id": "3",
+    "id": "PROD456-31",
+    "name": "Cachorro quente 31",
+    "description": "Cachorro quente tradicional 31",
+    "value": 8090,
+    "inventory_quantity": 51,
+    "is_inventory_active": true,
+    "tags": [
+      "SALGADA"
+    ],
+    "adittionals": [
+      {
+        "product_id": "ADICIONAL1"
+      },
+      {
+        "product_id": "ADICIONAL2"
+      }
+    ]
+  },
+  {
+    "category_id": "3",
+    "id": "PROD456-32",
+    "name": "Cachorro quente 32",
+    "description": "Cachorro quente tradicional 32",
+    "value": 8190,
+    "inventory_quantity": 52,
+    "is_inventory_active": true,
+    "tags": [
+      "SALGADA"
+    ],
+    "adittionals": [
+      {
+        "product_id": "ADICIONAL1"
+      },
+      {
+        "product_id": "ADICIONAL2"
+      }
+    ]
+  },
+  {
+    "category_id": "3",
+    "id": "PROD456-33",
+    "name": "Cachorro quente 33",
+    "description": "Cachorro quente tradicional 33",
+    "value": 8290,
+    "inventory_quantity": 53,
+    "is_inventory_active": true,
+    "tags": [
+      "SALGADA"
+    ],
+    "adittionals": [
+      {
+        "product_id": "ADICIONAL1"
+      },
+      {
+        "product_id": "ADICIONAL2"
+      }
+    ]
+  },
+  {
+    "category_id": "3",
+    "id": "PROD456-34",
+    "name": "Cachorro quente 34",
+    "description": "Cachorro quente tradicional 34",
+    "value": 8390,
+    "inventory_quantity": 54,
+    "is_inventory_active": true,
+    "tags": [
+      "SALGADA"
+    ],
+    "adittionals": [
+      {
+        "product_id": "ADICIONAL1"
+      },
+      {
+        "product_id": "ADICIONAL2"
+      }
+    ]
+  },
+  {
+    "category_id": "3",
+    "id": "PROD456-35",
+    "name": "Cachorro quente 35",
+    "description": "Cachorro quente tradicional 35",
+    "value": 8490,
+    "inventory_quantity": 55,
+    "is_inventory_active": true,
+    "tags": [
+      "SALGADA"
+    ],
+    "adittionals": [
+      {
+        "product_id": "ADICIONAL1"
+      },
+      {
+        "product_id": "ADICIONAL2"
+      }
+    ]
+  },
+  {
+    "category_id": "3",
+    "id": "PROD456-36",
+    "name": "Cachorro quente 36",
+    "description": "Cachorro quente tradicional 36",
+    "value": 8590,
+    "inventory_quantity": 56,
+    "is_inventory_active": true,
+    "tags": [
+      "SALGADA"
+    ],
+    "adittionals": [
+      {
+        "product_id": "ADICIONAL1"
+      },
+      {
+        "product_id": "ADICIONAL2"
+      }
+    ]
+  },
+  {
+    "category_id": "3",
+    "id": "PROD456-37",
+    "name": "Cachorro quente 37",
+    "description": "Cachorro quente tradicional 37",
+    "value": 8690,
+    "inventory_quantity": 57,
+    "is_inventory_active": true,
+    "tags": [
+      "SALGADA"
+    ],
+    "adittionals": [
+      {
+        "product_id": "ADICIONAL1"
+      },
+      {
+        "product_id": "ADICIONAL2"
+      }
+    ]
+  },
+  {
+    "category_id": "3",
+    "id": "PROD456-38",
+    "name": "Cachorro quente 38",
+    "description": "Cachorro quente tradicional 38",
+    "value": 8790,
+    "inventory_quantity": 58,
+    "is_inventory_active": true,
+    "tags": [
+      "SALGADA"
+    ],
+    "adittionals": [
+      {
+        "product_id": "ADICIONAL1"
+      },
+      {
+        "product_id": "ADICIONAL2"
+      }
+    ]
+  },
+  {
+    "category_id": "3",
+    "id": "PROD456-39",
+    "name": "Cachorro quente 39",
+    "description": "Cachorro quente tradicional 39",
+    "value": 8890,
+    "inventory_quantity": 59,
+    "is_inventory_active": true,
+    "tags": [
+      "SALGADA"
+    ],
+    "adittionals": [
+      {
+        "product_id": "ADICIONAL1"
+      },
+      {
+        "product_id": "ADICIONAL2"
+      }
+    ]
+  },
+  {
+    "category_id": "3",
+    "id": "PROD456-40",
+    "name": "Cachorro quente 40",
+    "description": "Cachorro quente tradicional 40",
+    "value": 8990,
+    "inventory_quantity": 60,
+    "is_inventory_active": true,
+    "tags": [
+      "SALGADA"
+    ],
+    "adittionals": [
+      {
+        "product_id": "ADICIONAL1"
+      },
+      {
+        "product_id": "ADICIONAL2"
+      }
+    ]
+  },
+  {
+    "category_id": "3",
+    "id": "PROD456-41",
+    "name": "Cachorro quente 41",
+    "description": "Cachorro quente tradicional 41",
+    "value": 9090,
+    "inventory_quantity": 61,
+    "is_inventory_active": true,
+    "tags": [
+      "SALGADA"
+    ],
+    "adittionals": [
+      {
+        "product_id": "ADICIONAL1"
+      },
+      {
+        "product_id": "ADICIONAL2"
+      }
+    ]
+  },
+  {
+    "category_id": "3",
+    "id": "PROD456-42",
+    "name": "Cachorro quente 42",
+    "description": "Cachorro quente tradicional 42",
+    "value": 9190,
+    "inventory_quantity": 62,
+    "is_inventory_active": true,
+    "tags": [
+      "SALGADA"
+    ],
+    "adittionals": [
+      {
+        "product_id": "ADICIONAL1"
+      },
+      {
+        "product_id": "ADICIONAL2"
+      }
+    ]
+  },
+  {
+    "category_id": "3",
+    "id": "PROD456-43",
+    "name": "Cachorro quente 43",
+    "description": "Cachorro quente tradicional 43",
+    "value": 9290,
+    "inventory_quantity": 63,
+    "is_inventory_active": true,
+    "tags": [
+      "SALGADA"
+    ],
+    "adittionals": [
+      {
+        "product_id": "ADICIONAL1"
+      },
+      {
+        "product_id": "ADICIONAL2"
+      }
+    ]
+  },
+  {
+    "category_id": "3",
+    "id": "PROD456-44",
+    "name": "Cachorro quente 44",
+    "description": "Cachorro quente tradicional 44",
+    "value": 9390,
+    "inventory_quantity": 64,
+    "is_inventory_active": true,
+    "tags": [
+      "SALGADA"
+    ],
+    "adittionals": [
+      {
+        "product_id": "ADICIONAL1"
+      },
+      {
+        "product_id": "ADICIONAL2"
+      }
+    ]
+  },
+  {
+    "category_id": "3",
+    "id": "PROD456-45",
+    "name": "Cachorro quente 45",
+    "description": "Cachorro quente tradicional 45",
+    "value": 9490,
+    "inventory_quantity": 65,
+    "is_inventory_active": true,
+    "tags": [
+      "SALGADA"
+    ],
+    "adittionals": [
+      {
+        "product_id": "ADICIONAL1"
+      },
+      {
+        "product_id": "ADICIONAL2"
+      }
+    ]
+  },
+  {
+    "category_id": "3",
+    "id": "PROD456-46",
+    "name": "Cachorro quente 46",
+    "description": "Cachorro quente tradicional 46",
+    "value": 9590,
+    "inventory_quantity": 66,
+    "is_inventory_active": true,
+    "tags": [
+      "SALGADA"
+    ],
+    "adittionals": [
+      {
+        "product_id": "ADICIONAL1"
+      },
+      {
+        "product_id": "ADICIONAL2"
+      }
+    ]
+  },
+  {
+    "category_id": "3",
+    "id": "PROD456-47",
+    "name": "Cachorro quente 47",
+    "description": "Cachorro quente tradicional 47",
+    "value": 9690,
+    "inventory_quantity": 67,
+    "is_inventory_active": true,
+    "tags": [
+      "SALGADA"
+    ],
+    "adittionals": [
+      {
+        "product_id": "ADICIONAL1"
+      },
+      {
+        "product_id": "ADICIONAL2"
+      }
+    ]
+  },
+  {
+    "category_id": "3",
+    "id": "PROD456-48",
+    "name": "Cachorro quente 48",
+    "description": "Cachorro quente tradicional 48",
+    "value": 9790,
+    "inventory_quantity": 68,
+    "is_inventory_active": true,
+    "tags": [
+      "SALGADA"
+    ],
+    "adittionals": [
+      {
+        "product_id": "ADICIONAL1"
+      },
+      {
+        "product_id": "ADICIONAL2"
+      }
+    ]
+  },
+  {
+    "category_id": "3",
+    "id": "PROD456-49",
+    "name": "Cachorro quente 49",
+    "description": "Cachorro quente tradicional 49",
+    "value": 9890,
+    "inventory_quantity": 69,
+    "is_inventory_active": true,
+    "tags": [
+      "SALGADA"
+    ],
+    "adittionals": [
+      {
+        "product_id": "ADICIONAL1"
+      },
+      {
+        "product_id": "ADICIONAL2"
+      }
+    ]
+  },
+  {
+    "category_id": "3",
+    "id": "PROD456-50",
+    "name": "Cachorro quente 50",
+    "description": "Cachorro quente tradicional 50",
+    "value": 9990,
+    "inventory_quantity": 70,
+    "is_inventory_active": true,
+    "tags": [
+      "SALGADA"
+    ],
+    "adittionals": [
+      {
+        "product_id": "ADICIONAL1"
+      },
+      {
+        "product_id": "ADICIONAL2"
+      }
+    ]
+  },
+  {
+    "category_id": "3",
+    "id": "PROD456-51",
+    "name": "Cachorro quente 51",
+    "description": "Cachorro quente tradicional 51",
+    "value": 10090,
+    "inventory_quantity": 71,
+    "is_inventory_active": true,
+    "tags": [
+      "SALGADA"
+    ],
+    "adittionals": [
+      {
+        "product_id": "ADICIONAL1"
+      },
+      {
+        "product_id": "ADICIONAL2"
+      }
+    ]
+  },
+  {
+    "category_id": "3",
+    "id": "PROD456-52",
+    "name": "Cachorro quente 52",
+    "description": "Cachorro quente tradicional 52",
+    "value": 10190,
+    "inventory_quantity": 72,
+    "is_inventory_active": true,
+    "tags": [
+      "SALGADA"
+    ],
+    "adittionals": [
+      {
+        "product_id": "ADICIONAL1"
+      },
+      {
+        "product_id": "ADICIONAL2"
+      }
+    ]
+  },
+  {
+    "category_id": "3",
+    "id": "PROD456-53",
+    "name": "Cachorro quente 53",
+    "description": "Cachorro quente tradicional 53",
+    "value": 10290,
+    "inventory_quantity": 73,
+    "is_inventory_active": true,
+    "tags": [
+      "SALGADA"
+    ],
+    "adittionals": [
+      {
+        "product_id": "ADICIONAL1"
+      },
+      {
+        "product_id": "ADICIONAL2"
+      }
+    ]
+  },
+  {
+    "category_id": "3",
+    "id": "PROD456-54",
+    "name": "Cachorro quente 54",
+    "description": "Cachorro quente tradicional 54",
+    "value": 10390,
+    "inventory_quantity": 74,
+    "is_inventory_active": true,
+    "tags": [
+      "SALGADA"
+    ],
+    "adittionals": [
+      {
+        "product_id": "ADICIONAL1"
+      },
+      {
+        "product_id": "ADICIONAL2"
+      }
+    ]
+  },
+  {
+    "category_id": "3",
+    "id": "PROD456-55",
+    "name": "Cachorro quente 55",
+    "description": "Cachorro quente tradicional 55",
+    "value": 10490,
+    "inventory_quantity": 75,
+    "is_inventory_active": true,
+    "tags": [
+      "SALGADA"
+    ],
+    "adittionals": [
+      {
+        "product_id": "ADICIONAL1"
+      },
+      {
+        "product_id": "ADICIONAL2"
+      }
+    ]
+  },
+  {
+    "category_id": "3",
+    "id": "PROD456-56",
+    "name": "Cachorro quente 56",
+    "description": "Cachorro quente tradicional 56",
+    "value": 10590,
+    "inventory_quantity": 76,
+    "is_inventory_active": true,
+    "tags": [
+      "SALGADA"
+    ],
+    "adittionals": [
+      {
+        "product_id": "ADICIONAL1"
+      },
+      {
+        "product_id": "ADICIONAL2"
+      }
+    ]
+  },
+  {
+    "category_id": "3",
+    "id": "PROD456-57",
+    "name": "Cachorro quente 57",
+    "description": "Cachorro quente tradicional 57",
+    "value": 10690,
+    "inventory_quantity": 77,
+    "is_inventory_active": true,
+    "tags": [
+      "SALGADA"
+    ],
+    "adittionals": [
+      {
+        "product_id": "ADICIONAL1"
+      },
+      {
+        "product_id": "ADICIONAL2"
+      }
+    ]
+  },
+  {
+    "category_id": "3",
+    "id": "PROD456-58",
+    "name": "Cachorro quente 58",
+    "description": "Cachorro quente tradicional 58",
+    "value": 10790,
+    "inventory_quantity": 78,
+    "is_inventory_active": true,
+    "tags": [
+      "SALGADA"
+    ],
+    "adittionals": [
+      {
+        "product_id": "ADICIONAL1"
+      },
+      {
+        "product_id": "ADICIONAL2"
+      }
+    ]
+  },
+  {
+    "category_id": "3",
+    "id": "PROD456-59",
+    "name": "Cachorro quente 59",
+    "description": "Cachorro quente tradicional 59",
+    "value": 10890,
+    "inventory_quantity": 79,
+    "is_inventory_active": true,
+    "tags": [
+      "SALGADA"
+    ],
+    "adittionals": [
+      {
+        "product_id": "ADICIONAL1"
+      },
+      {
+        "product_id": "ADICIONAL2"
+      }
+    ]
+  },
+  {
+    "category_id": "3",
+    "id": "PROD456-60",
+    "name": "Cachorro quente 60",
+    "description": "Cachorro quente tradicional 60",
+    "value": 10990,
+    "inventory_quantity": 80,
+    "is_inventory_active": true,
+    "tags": [
+      "SALGADA"
+    ],
+    "adittionals": [
+      {
+        "product_id": "ADICIONAL1"
+      },
+      {
+        "product_id": "ADICIONAL2"
+      }
+    ]
+  },
+  {
+    "category_id": "3",
+    "id": "PROD456-61",
+    "name": "Cachorro quente 61",
+    "description": "Cachorro quente tradicional 61",
+    "value": 11090,
+    "inventory_quantity": 81,
+    "is_inventory_active": true,
+    "tags": [
+      "SALGADA"
+    ],
+    "adittionals": [
+      {
+        "product_id": "ADICIONAL1"
+      },
+      {
+        "product_id": "ADICIONAL2"
+      }
+    ]
+  },
+  {
+    "category_id": "3",
+    "id": "PROD456-62",
+    "name": "Cachorro quente 62",
+    "description": "Cachorro quente tradicional 62",
+    "value": 11190,
+    "inventory_quantity": 82,
+    "is_inventory_active": true,
+    "tags": [
+      "SALGADA"
+    ],
+    "adittionals": [
+      {
+        "product_id": "ADICIONAL1"
+      },
+      {
+        "product_id": "ADICIONAL2"
+      }
+    ]
+  },
+  {
+    "category_id": "3",
+    "id": "PROD456-63",
+    "name": "Cachorro quente 63",
+    "description": "Cachorro quente tradicional 63",
+    "value": 11290,
+    "inventory_quantity": 83,
+    "is_inventory_active": true,
+    "tags": [
+      "SALGADA"
+    ],
+    "adittionals": [
+      {
+        "product_id": "ADICIONAL1"
+      },
+      {
+        "product_id": "ADICIONAL2"
+      }
+    ]
+  },
+  {
+    "category_id": "3",
+    "id": "PROD456-64",
+    "name": "Cachorro quente 64",
+    "description": "Cachorro quente tradicional 64",
+    "value": 11390,
+    "inventory_quantity": 84,
+    "is_inventory_active": true,
+    "tags": [
+      "SALGADA"
+    ],
+    "adittionals": [
+      {
+        "product_id": "ADICIONAL1"
+      },
+      {
+        "product_id": "ADICIONAL2"
+      }
+    ]
+  },
+  {
+    "category_id": "3",
+    "id": "PROD456-65",
+    "name": "Cachorro quente 65",
+    "description": "Cachorro quente tradicional 65",
+    "value": 11490,
+    "inventory_quantity": 85,
+    "is_inventory_active": true,
+    "tags": [
+      "SALGADA"
+    ],
+    "adittionals": [
+      {
+        "product_id": "ADICIONAL1"
+      },
+      {
+        "product_id": "ADICIONAL2"
+      }
+    ]
+  },
+  {
+    "category_id": "3",
+    "id": "PROD456-66",
+    "name": "Cachorro quente 66",
+    "description": "Cachorro quente tradicional 66",
+    "value": 11590,
+    "inventory_quantity": 86,
+    "is_inventory_active": true,
+    "tags": [
+      "SALGADA"
+    ],
+    "adittionals": [
+      {
+        "product_id": "ADICIONAL1"
+      },
+      {
+        "product_id": "ADICIONAL2"
+      }
+    ]
+  },
+  {
+    "category_id": "3",
+    "id": "PROD456-67",
+    "name": "Cachorro quente 67",
+    "description": "Cachorro quente tradicional 67",
+    "value": 11690,
+    "inventory_quantity": 87,
+    "is_inventory_active": true,
+    "tags": [
+      "SALGADA"
+    ],
+    "adittionals": [
+      {
+        "product_id": "ADICIONAL1"
+      },
+      {
+        "product_id": "ADICIONAL2"
+      }
+    ]
+  },
+  {
+    "category_id": "3",
+    "id": "PROD456-68",
+    "name": "Cachorro quente 68",
+    "description": "Cachorro quente tradicional 68",
+    "value": 11790,
+    "inventory_quantity": 88,
+    "is_inventory_active": true,
+    "tags": [
+      "SALGADA"
+    ],
+    "adittionals": [
+      {
+        "product_id": "ADICIONAL1"
+      },
+      {
+        "product_id": "ADICIONAL2"
+      }
+    ]
+  },
+  {
+    "category_id": "3",
+    "id": "PROD456-69",
+    "name": "Cachorro quente 69",
+    "description": "Cachorro quente tradicional 69",
+    "value": 11890,
+    "inventory_quantity": 89,
+    "is_inventory_active": true,
+    "tags": [
+      "SALGADA"
+    ],
+    "adittionals": [
+      {
+        "product_id": "ADICIONAL1"
+      },
+      {
+        "product_id": "ADICIONAL2"
+      }
+    ]
+  },
+  {
+    "category_id": "3",
+    "id": "PROD456-70",
+    "name": "Cachorro quente 70",
+    "description": "Cachorro quente tradicional 70",
+    "value": 11990,
+    "inventory_quantity": 90,
+    "is_inventory_active": true,
+    "tags": [
+      "SALGADA"
+    ],
+    "adittionals": [
+      {
+        "product_id": "ADICIONAL1"
+      },
+      {
+        "product_id": "ADICIONAL2"
+      }
+    ]
+  },
+  {
+    "category_id": "3",
+    "id": "PROD456-71",
+    "name": "Cachorro quente 71",
+    "description": "Cachorro quente tradicional 71",
+    "value": 12090,
+    "inventory_quantity": 91,
+    "is_inventory_active": true,
+    "tags": [
+      "SALGADA"
+    ],
+    "adittionals": [
+      {
+        "product_id": "ADICIONAL1"
+      },
+      {
+        "product_id": "ADICIONAL2"
+      }
+    ]
+  },
+  {
+    "category_id": "3",
+    "id": "PROD456-72",
+    "name": "Cachorro quente 72",
+    "description": "Cachorro quente tradicional 72",
+    "value": 12190,
+    "inventory_quantity": 92,
+    "is_inventory_active": true,
+    "tags": [
+      "SALGADA"
+    ],
+    "adittionals": [
+      {
+        "product_id": "ADICIONAL1"
+      },
+      {
+        "product_id": "ADICIONAL2"
+      }
+    ]
+  },
+  {
+    "category_id": "3",
+    "id": "PROD456-73",
+    "name": "Cachorro quente 73",
+    "description": "Cachorro quente tradicional 73",
+    "value": 12290,
+    "inventory_quantity": 93,
+    "is_inventory_active": true,
+    "tags": [
+      "SALGADA"
+    ],
+    "adittionals": [
+      {
+        "product_id": "ADICIONAL1"
+      },
+      {
+        "product_id": "ADICIONAL2"
+      }
+    ]
+  },
+  {
+    "category_id": "3",
+    "id": "PROD456-74",
+    "name": "Cachorro quente 74",
+    "description": "Cachorro quente tradicional 74",
+    "value": 12390,
+    "inventory_quantity": 94,
+    "is_inventory_active": true,
+    "tags": [
+      "SALGADA"
+    ],
+    "adittionals": [
+      {
+        "product_id": "ADICIONAL1"
+      },
+      {
+        "product_id": "ADICIONAL2"
+      }
+    ]
+  },
+  {
+    "category_id": "3",
+    "id": "PROD456-75",
+    "name": "Cachorro quente 75",
+    "description": "Cachorro quente tradicional 75",
+    "value": 12490,
+    "inventory_quantity": 95,
+    "is_inventory_active": true,
+    "tags": [
+      "SALGADA"
+    ],
+    "adittionals": [
+      {
+        "product_id": "ADICIONAL1"
+      },
+      {
+        "product_id": "ADICIONAL2"
+      }
+    ]
+  },
+  {
+    "category_id": "3",
+    "id": "PROD456-76",
+    "name": "Cachorro quente 76",
+    "description": "Cachorro quente tradicional 76",
+    "value": 12590,
+    "inventory_quantity": 96,
+    "is_inventory_active": true,
+    "tags": [
+      "SALGADA"
+    ],
+    "adittionals": [
+      {
+        "product_id": "ADICIONAL1"
+      },
+      {
+        "product_id": "ADICIONAL2"
+      }
+    ]
+  },
+  {
+    "category_id": "3",
+    "id": "PROD456-77",
+    "name": "Cachorro quente 77",
+    "description": "Cachorro quente tradicional 77",
+    "value": 12690,
+    "inventory_quantity": 97,
+    "is_inventory_active": true,
+    "tags": [
+      "SALGADA"
+    ],
+    "adittionals": [
+      {
+        "product_id": "ADICIONAL1"
+      },
+      {
+        "product_id": "ADICIONAL2"
+      }
+    ]
+  },
+  {
+    "category_id": "3",
+    "id": "PROD456-78",
+    "name": "Cachorro quente 78",
+    "description": "Cachorro quente tradicional 78",
+    "value": 12790,
+    "inventory_quantity": 98,
+    "is_inventory_active": true,
+    "tags": [
+      "SALGADA"
+    ],
+    "adittionals": [
+      {
+        "product_id": "ADICIONAL1"
+      },
+      {
+        "product_id": "ADICIONAL2"
+      }
+    ]
+  },
+  {
+    "category_id": "3",
+    "id": "PROD456-79",
+    "name": "Cachorro quente 79",
+    "description": "Cachorro quente tradicional 79",
+    "value": 12890,
+    "inventory_quantity": 99,
+    "is_inventory_active": true,
+    "tags": [
+      "SALGADA"
+    ],
+    "adittionals": [
+      {
+        "product_id": "ADICIONAL1"
+      },
+      {
+        "product_id": "ADICIONAL2"
+      }
+    ]
+  },
+  {
+    "category_id": "3",
+    "id": "PROD456-80",
+    "name": "Cachorro quente 80",
+    "description": "Cachorro quente tradicional 80",
+    "value": 12990,
+    "inventory_quantity": 100,
+    "is_inventory_active": true,
+    "tags": [
+      "SALGADA"
+    ],
+    "adittionals": [
+      {
+        "product_id": "ADICIONAL1"
+      },
+      {
+        "product_id": "ADICIONAL2"
+      }
+    ]
+  },
+  {
+    "category_id": "3",
+    "id": "PROD456-81",
+    "name": "Cachorro quente 81",
+    "description": "Cachorro quente tradicional 81",
+    "value": 13090,
+    "inventory_quantity": 101,
+    "is_inventory_active": true,
+    "tags": [
+      "SALGADA"
+    ],
+    "adittionals": [
+      {
+        "product_id": "ADICIONAL1"
+      },
+      {
+        "product_id": "ADICIONAL2"
+      }
+    ]
+  },
+  {
+    "category_id": "3",
+    "id": "PROD456-82",
+    "name": "Cachorro quente 82",
+    "description": "Cachorro quente tradicional 82",
+    "value": 13190,
+    "inventory_quantity": 102,
+    "is_inventory_active": true,
+    "tags": [
+      "SALGADA"
+    ],
+    "adittionals": [
+      {
+        "product_id": "ADICIONAL1"
+      },
+      {
+        "product_id": "ADICIONAL2"
+      }
+    ]
+  },
+  {
+    "category_id": "3",
+    "id": "PROD456-83",
+    "name": "Cachorro quente 83",
+    "description": "Cachorro quente tradicional 83",
+    "value": 13290,
+    "inventory_quantity": 103,
+    "is_inventory_active": true,
+    "tags": [
+      "SALGADA"
+    ],
+    "adittionals": [
+      {
+        "product_id": "ADICIONAL1"
+      },
+      {
+        "product_id": "ADICIONAL2"
+      }
+    ]
+  },
+  {
+    "category_id": "3",
+    "id": "PROD456-84",
+    "name": "Cachorro quente 84",
+    "description": "Cachorro quente tradicional 84",
+    "value": 13390,
+    "inventory_quantity": 104,
+    "is_inventory_active": true,
+    "tags": [
+      "SALGADA"
+    ],
+    "adittionals": [
+      {
+        "product_id": "ADICIONAL1"
+      },
+      {
+        "product_id": "ADICIONAL2"
+      }
+    ]
+  },
+  {
+    "category_id": "3",
+    "id": "PROD456-85",
+    "name": "Cachorro quente 85",
+    "description": "Cachorro quente tradicional 85",
+    "value": 13490,
+    "inventory_quantity": 105,
+    "is_inventory_active": true,
+    "tags": [
+      "SALGADA"
+    ],
+    "adittionals": [
+      {
+        "product_id": "ADICIONAL1"
+      },
+      {
+        "product_id": "ADICIONAL2"
+      }
+    ]
+  },
+  {
+    "category_id": "3",
+    "id": "PROD456-86",
+    "name": "Cachorro quente 86",
+    "description": "Cachorro quente tradicional 86",
+    "value": 13590,
+    "inventory_quantity": 106,
+    "is_inventory_active": true,
+    "tags": [
+      "SALGADA"
+    ],
+    "adittionals": [
+      {
+        "product_id": "ADICIONAL1"
+      },
+      {
+        "product_id": "ADICIONAL2"
+      }
+    ]
+  },
+  {
+    "category_id": "3",
+    "id": "PROD456-87",
+    "name": "Cachorro quente 87",
+    "description": "Cachorro quente tradicional 87",
+    "value": 13690,
+    "inventory_quantity": 107,
+    "is_inventory_active": true,
+    "tags": [
+      "SALGADA"
+    ],
+    "adittionals": [
+      {
+        "product_id": "ADICIONAL1"
+      },
+      {
+        "product_id": "ADICIONAL2"
+      }
+    ]
+  },
+  {
+    "category_id": "3",
+    "id": "PROD456-88",
+    "name": "Cachorro quente 88",
+    "description": "Cachorro quente tradicional 88",
+    "value": 13790,
+    "inventory_quantity": 108,
+    "is_inventory_active": true,
+    "tags": [
+      "SALGADA"
+    ],
+    "adittionals": [
+      {
+        "product_id": "ADICIONAL1"
+      },
+      {
+        "product_id": "ADICIONAL2"
+      }
+    ]
+  },
+  {
+    "category_id": "3",
+    "id": "PROD456-89",
+    "name": "Cachorro quente 89",
+    "description": "Cachorro quente tradicional 89",
+    "value": 13890,
+    "inventory_quantity": 109,
+    "is_inventory_active": true,
+    "tags": [
+      "SALGADA"
+    ],
+    "adittionals": [
+      {
+        "product_id": "ADICIONAL1"
+      },
+      {
+        "product_id": "ADICIONAL2"
+      }
+    ]
+  },
+  {
+    "category_id": "3",
+    "id": "PROD456-90",
+    "name": "Cachorro quente 90",
+    "description": "Cachorro quente tradicional 90",
+    "value": 13990,
+    "inventory_quantity": 110,
+    "is_inventory_active": true,
+    "tags": [
+      "SALGADA"
+    ],
+    "adittionals": [
+      {
+        "product_id": "ADICIONAL1"
+      },
+      {
+        "product_id": "ADICIONAL2"
+      }
+    ]
+  },
+  {
+    "category_id": "3",
+    "id": "PROD456-91",
+    "name": "Cachorro quente 91",
+    "description": "Cachorro quente tradicional 91",
+    "value": 14090,
+    "inventory_quantity": 111,
+    "is_inventory_active": true,
+    "tags": [
+      "SALGADA"
+    ],
+    "adittionals": [
+      {
+        "product_id": "ADICIONAL1"
+      },
+      {
+        "product_id": "ADICIONAL2"
+      }
+    ]
+  },
+  {
+    "category_id": "3",
+    "id": "PROD456-92",
+    "name": "Cachorro quente 92",
+    "description": "Cachorro quente tradicional 92",
+    "value": 14190,
+    "inventory_quantity": 112,
+    "is_inventory_active": true,
+    "tags": [
+      "SALGADA"
+    ],
+    "adittionals": [
+      {
+        "product_id": "ADICIONAL1"
+      },
+      {
+        "product_id": "ADICIONAL2"
+      }
+    ]
+  },
+  {
+    "category_id": "3",
+    "id": "PROD456-93",
+    "name": "Cachorro quente 93",
+    "description": "Cachorro quente tradicional 93",
+    "value": 14290,
+    "inventory_quantity": 113,
+    "is_inventory_active": true,
+    "tags": [
+      "SALGADA"
+    ],
+    "adittionals": [
+      {
+        "product_id": "ADICIONAL1"
+      },
+      {
+        "product_id": "ADICIONAL2"
+      }
+    ]
+  },
+  {
+    "category_id": "3",
+    "id": "PROD456-94",
+    "name": "Cachorro quente 94",
+    "description": "Cachorro quente tradicional 94",
+    "value": 14390,
+    "inventory_quantity": 114,
+    "is_inventory_active": true,
+    "tags": [
+      "SALGADA"
+    ],
+    "adittionals": [
+      {
+        "product_id": "ADICIONAL1"
+      },
+      {
+        "product_id": "ADICIONAL2"
+      }
+    ]
+  },
+  {
+    "category_id": "3",
+    "id": "PROD456-95",
+    "name": "Cachorro quente 95",
+    "description": "Cachorro quente tradicional 95",
+    "value": 14490,
+    "inventory_quantity": 115,
+    "is_inventory_active": true,
+    "tags": [
+      "SALGADA"
+    ],
+    "adittionals": [
+      {
+        "product_id": "ADICIONAL1"
+      },
+      {
+        "product_id": "ADICIONAL2"
+      }
+    ]
+  },
+  {
+    "category_id": "3",
+    "id": "PROD456-96",
+    "name": "Cachorro quente 96",
+    "description": "Cachorro quente tradicional 96",
+    "value": 14590,
+    "inventory_quantity": 116,
+    "is_inventory_active": true,
+    "tags": [
+      "SALGADA"
+    ],
+    "adittionals": [
+      {
+        "product_id": "ADICIONAL1"
+      },
+      {
+        "product_id": "ADICIONAL2"
+      }
+    ]
+  },
+  {
+    "category_id": "3",
+    "id": "PROD456-97",
+    "name": "Cachorro quente 97",
+    "description": "Cachorro quente tradicional 97",
+    "value": 14690,
+    "inventory_quantity": 117,
+    "is_inventory_active": true,
+    "tags": [
+      "SALGADA"
+    ],
+    "adittionals": [
+      {
+        "product_id": "ADICIONAL1"
+      },
+      {
+        "product_id": "ADICIONAL2"
+      }
+    ]
+  },
+  {
+    "category_id": "3",
+    "id": "PROD456-98",
+    "name": "Cachorro quente 98",
+    "description": "Cachorro quente tradicional 98",
+    "value": 14790,
+    "inventory_quantity": 118,
+    "is_inventory_active": true,
+    "tags": [
+      "SALGADA"
+    ],
+    "adittionals": [
+      {
+        "product_id": "ADICIONAL1"
+      },
+      {
+        "product_id": "ADICIONAL2"
+      }
+    ]
+  },
+  {
+    "category_id": "3",
+    "id": "PROD456-99",
+    "name": "Cachorro quente 99",
+    "description": "Cachorro quente tradicional 99",
+    "value": 14890,
+    "inventory_quantity": 119,
+    "is_inventory_active": true,
+    "tags": [
+      "SALGADA"
+    ],
+    "adittionals": [
+      {
+        "product_id": "ADICIONAL1"
+      },
+      {
+        "product_id": "ADICIONAL2"
+      }
+    ]
+  },
+  {
+    "category_id": "3",
+    "id": "PROD456-100",
+    "name": "Cachorro quente 100",
+    "description": "Cachorro quente tradicional 100",
+    "value": 14990,
+    "inventory_quantity": 120,
+    "is_inventory_active": true,
+    "tags": [
+      "SALGADA"
+    ],
+    "adittionals": [
+      {
+        "product_id": "ADICIONAL1"
+      },
+      {
+        "product_id": "ADICIONAL2"
+      }
+    ]
+  }
+]
