@@ -73,38 +73,32 @@ var productRequestHandlers = []productRequestHandler{
 	},
 }
 
-func processProduct(ctx context.Context, raw map[string]interface{}, i int, c *gin.Context) (interface{}, bool) {
+func processProduct(ctx context.Context, raw map[string]interface{}, i int) (interface{}, error) {
 	time.Sleep(100 * time.Millisecond) // Simula processamento
 	categoryID, ok := raw["category_id"].(string)
 	if !ok || categoryID == "" {
-		c.JSON(http.StatusBadRequest, gin.H{"error": "category_id field is required", "index": i})
-		return nil, false
+		return nil, fmt.Errorf("category_id field is required (index %d)", i)
 	}
 	cat, err := category.GetCategoryByID(ctx, categoryID)
 	if err != nil {
-		c.JSON(http.StatusBadRequest, gin.H{"error": "category not found", "category_id": categoryID, "index": i})
-		return nil, false
+		return nil, fmt.Errorf("category not found (category_id %s, index %d)", categoryID, i)
 	}
 	typeStr, ok := cat["type"].(string)
 	if !ok {
-		c.JSON(http.StatusBadRequest, gin.H{"error": "category type not found", "category_id": categoryID, "index": i})
-		return nil, false
+		return nil, fmt.Errorf("category type not found (category_id %s, index %d)", categoryID, i)
 	}
 	handler := getProductRequestHandler(typeStr)
 	if handler == nil {
-		c.JSON(http.StatusBadRequest, gin.H{"error": "invalid product type for category", "type": typeStr, "index": i})
-		return nil, false
+		return nil, fmt.Errorf("invalid product type for category (type %s, index %d)", typeStr, i)
 	}
 	req, err := handler.Unmarshal(raw)
 	if err != nil {
-		c.JSON(http.StatusBadRequest, gin.H{"error": err.Error(), "index": i})
-		return nil, false
+		return nil, fmt.Errorf("%s (index %d)", err.Error(), i)
 	}
 	if err := handler.Validate(req); err != nil {
-		c.JSON(http.StatusBadRequest, gin.H{"error": err.Error(), "index": i})
-		return nil, false
+		return nil, fmt.Errorf("%s (index %d)", err.Error(), i)
 	}
-	return handler.ToModel(req, cat), true
+	return handler.ToModel(req, cat), nil
 }
 
 func CreateProductHandler(c *gin.Context) {
@@ -114,16 +108,53 @@ func CreateProductHandler(c *gin.Context) {
 		return
 	}
 
-	products := make([]interface{}, 0, len(rawProducts))
 	ctx, cancel := context.WithTimeout(context.Background(), 60*time.Second)
 	defer cancel()
 
+	numWorkers := 50
+	jobs := make(chan struct {
+		Raw map[string]interface{}
+		Idx int
+	}, len(rawProducts))
+	results := make(chan struct {
+		Product interface{}
+		Err     error
+		Idx     int
+	}, len(rawProducts))
+
+	// Start workers
+	for w := 0; w < numWorkers; w++ {
+		go func() {
+			for job := range jobs {
+				product, err := processProduct(ctx, job.Raw, job.Idx)
+				results <- struct {
+					Product interface{}
+					Err     error
+					Idx     int
+				}{product, err, job.Idx}
+			}
+		}()
+	}
+
+	// Enqueue jobs
 	for i, raw := range rawProducts {
-		product, ok := processProduct(ctx, raw, i, c)
-		if !ok {
+		jobs <- struct {
+			Raw map[string]interface{}
+			Idx int
+		}{raw, i}
+	}
+	close(jobs)
+
+	products := make([]interface{}, len(rawProducts))
+	numResults := 0
+	for numResults < len(rawProducts) {
+		res := <-results
+		numResults++
+		if res.Err != nil {
+			c.JSON(http.StatusBadRequest, gin.H{"error": res.Err.Error(), "index": res.Idx})
 			return
 		}
-		products = append(products, product)
+		products[res.Idx] = res.Product
 	}
 
 	if err := product.InsertProducts(ctx, products); err != nil {
