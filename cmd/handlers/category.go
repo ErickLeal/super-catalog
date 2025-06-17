@@ -6,6 +6,7 @@ import (
 	"net/http"
 	"time"
 
+	"super-catalog/cmd/requests"
 	"super-catalog/internal/category"
 
 	"github.com/gin-gonic/gin"
@@ -14,71 +15,82 @@ import (
 
 var validate = validator.New()
 
-type SizeRequest struct {
-	ID   string `json:"id" validate:"required,max=50"`
-	Name string `json:"name" validate:"required,max=100"`
-}
-
-type SizeFlavorRequest struct {
-	ID          string `json:"id" validate:"required,max=50"`
-	Name        string `json:"name" validate:"required,max=100"`
-	MaxFlavours int64  `json:"max_flavors" validate:"required,max=64,min=1"`
-}
-
-type AskGroupOptionRequest struct {
-	ID          string `json:"id" validate:"required,max=50"`
-	Name        string `json:"name" validate:"required,max=100"`
-	Description string `json:"description" validate:"max=255"`
-	Value       int64  `json:"value" validate:"required,min=0"`
-}
-
-type AskGroupRequest struct {
-	ID           string                  `json:"id" validate:"required,max=50"`
-	Group        string                  `json:"group" validate:"required,max=100"`
-	MinimunLimit int                     `json:"min_limit" validate:"required,min=0"`
-	MaximunLimit int                     `json:"max_limit" validate:"required,min=0"`
-	Options      []AskGroupOptionRequest `json:"options" validate:"dive,required"`
-}
-
-type SchedulRequest struct {
-	Day   string `json:"day" validate:"required,max=20"`
-	Hours string `json:"hours" validate:"required,max=20"`
-}
-
-type BaseCategoryRequest struct {
-	Type        string `json:"type" validate:"required,oneof=FOODS MARKET SCHEDULED SLICED_FOODS"`
-	ID          string `json:"id" validate:"required,max=50"`
-	Name        string `json:"name" validate:"required,max=100"`
-	Description string `json:"description" validate:"max=255"`
-}
-
-type FoodsCategoryRequest struct {
-	BaseCategoryRequest
-	Culinary  string            `json:"culinary" validate:"required,max=100"`
-	StoreId   string            `json:"store_id" validate:"required"`
-	Sizes     []SizeRequest     `json:"sizes" validate:"dive,required"`
-	AskGroups []AskGroupRequest `json:"ask_groups" validate:"dive"`
-}
-
-type SlicedFoodsCategoryRequest struct {
-	BaseCategoryRequest
-	StoreId   string              `json:"store_id" validate:"required"`
-	Sizes     []SizeFlavorRequest `json:"sizes" validate:"dive,required"`
-	AskGroups []AskGroupRequest   `json:"ask_groups" validate:"dive"`
-}
-
-type MaketCategoryRequest struct {
-	BaseCategoryRequest
-	Section string `json:"section" validate:"required,max=100"`
-}
-
-type ScheduledCategoryRequest struct {
-	BaseCategoryRequest
-	Schedul []SchedulRequest `json:"schedul" validate:"dive,required"`
-}
-
 func validateCategoryRequest(req interface{}) error {
 	return validate.Struct(req)
+}
+
+type categoryRequestHandler struct {
+	Type      category.CategoryType
+	Unmarshal func(map[string]interface{}) (interface{}, error)
+	Validate  func(interface{}) error
+	ToModel   func(interface{}) interface{}
+}
+
+var categoryRequestHandlers = []categoryRequestHandler{
+	{
+		Type: category.CategoryTypeFoods,
+		Unmarshal: func(raw map[string]interface{}) (interface{}, error) {
+			var req requests.FoodsCategoryRequest
+			if err := mapToStruct(raw, &req); err != nil {
+				return nil, err
+			}
+			return req, nil
+		},
+		Validate: func(req interface{}) error {
+			return validateCategoryRequest(req)
+		},
+		ToModel: func(req interface{}) interface{} {
+			return req.(requests.FoodsCategoryRequest).ToCategory()
+		},
+	},
+	{
+		Type: category.CategorySlicedFoods,
+		Unmarshal: func(raw map[string]interface{}) (interface{}, error) {
+			var req requests.SlicedFoodsCategoryRequest
+			if err := mapToStruct(raw, &req); err != nil {
+				return nil, err
+			}
+			return req, nil
+		},
+		Validate: func(req interface{}) error {
+			return validateCategoryRequest(req)
+		},
+		ToModel: func(req interface{}) interface{} {
+			return req.(requests.SlicedFoodsCategoryRequest).ToCategory()
+		},
+	},
+	{
+		Type: category.CategoryTypeMarket,
+		Unmarshal: func(raw map[string]interface{}) (interface{}, error) {
+			var req requests.MaketCategoryRequest
+			if err := mapToStruct(raw, &req); err != nil {
+				return nil, err
+			}
+			return req, nil
+		},
+		Validate: func(req interface{}) error {
+			return validateCategoryRequest(req)
+		},
+		ToModel: func(req interface{}) interface{} {
+			return req.(requests.MaketCategoryRequest).ToCategory()
+		},
+	},
+	{
+		Type: category.CategoryTypeScheduled,
+		Unmarshal: func(raw map[string]interface{}) (interface{}, error) {
+			var req requests.ScheduledCategoryRequest
+			if err := mapToStruct(raw, &req); err != nil {
+				return nil, err
+			}
+			return req, nil
+		},
+		Validate: func(req interface{}) error {
+			return validateCategoryRequest(req)
+		},
+		ToModel: func(req interface{}) interface{} {
+			return req.(requests.ScheduledCategoryRequest).ToCategory()
+		},
+	},
 }
 
 func CreateCategoryHandler(c *gin.Context) {
@@ -89,61 +101,27 @@ func CreateCategoryHandler(c *gin.Context) {
 	}
 
 	categories := make([]interface{}, 0, len(rawCategories))
-	for _, raw := range rawCategories {
+	for i, raw := range rawCategories {
 		typeStr, ok := raw["type"].(string)
 		if !ok {
-			c.JSON(http.StatusBadRequest, gin.H{"error": "type field is required"})
+			c.JSON(http.StatusBadRequest, gin.H{"error": "type field is required", "index": i})
 			return
 		}
-		switch category.CategoryType(typeStr) {
-		case category.CategoryTypeFoods:
-			var req FoodsCategoryRequest
-			if err := mapToStruct(raw, &req); err != nil {
-				c.JSON(http.StatusBadRequest, gin.H{"error": err.Error()})
-				return
-			}
-			if err := validateCategoryRequest(req); err != nil {
-				c.JSON(http.StatusBadRequest, gin.H{"error": err.Error()})
-				return
-			}
-			categories = append(categories, req.ToCategory())
-		case category.CategorySlicedFoods:
-			var req SlicedFoodsCategoryRequest
-			if err := mapToStruct(raw, &req); err != nil {
-				c.JSON(http.StatusBadRequest, gin.H{"error": err.Error()})
-				return
-			}
-			if err := validateCategoryRequest(req); err != nil {
-				c.JSON(http.StatusBadRequest, gin.H{"error": err.Error()})
-				return
-			}
-			categories = append(categories, req.ToCategory())
-		case category.CategoryTypeMarket:
-			var req MaketCategoryRequest
-			if err := mapToStruct(raw, &req); err != nil {
-				c.JSON(http.StatusBadRequest, gin.H{"error": err.Error()})
-				return
-			}
-			if err := validateCategoryRequest(req); err != nil {
-				c.JSON(http.StatusBadRequest, gin.H{"error": err.Error()})
-				return
-			}
-			categories = append(categories, req.ToCategory())
-		case category.CategoryTypeScheduled:
-			var req ScheduledCategoryRequest
-			if err := mapToStruct(raw, &req); err != nil {
-				c.JSON(http.StatusBadRequest, gin.H{"error": err.Error()})
-				return
-			}
-			if err := validateCategoryRequest(req); err != nil {
-				c.JSON(http.StatusBadRequest, gin.H{"error": err.Error()})
-				return
-			}
-			categories = append(categories, req.ToCategory())
-		default:
-			c.JSON(http.StatusBadRequest, gin.H{"error": "invalid category type"})
+		handler := getCategoryRequestHandler(typeStr)
+		if handler == nil {
+			c.JSON(http.StatusBadRequest, gin.H{"error": "invalid category type", "type": typeStr, "index": i})
 			return
 		}
+		req, err := handler.Unmarshal(raw)
+		if err != nil {
+			c.JSON(http.StatusBadRequest, gin.H{"error": err.Error(), "index": i})
+			return
+		}
+		if err := handler.Validate(req); err != nil {
+			c.JSON(http.StatusBadRequest, gin.H{"error": err.Error(), "index": i})
+			return
+		}
+		categories = append(categories, handler.ToModel(req))
 	}
 
 	ctx, cancel := context.WithTimeout(context.Background(), 5*time.Second)
@@ -155,115 +133,19 @@ func CreateCategoryHandler(c *gin.Context) {
 	c.JSON(http.StatusCreated, categories)
 }
 
+func getCategoryRequestHandler(typeStr string) *categoryRequestHandler {
+	for _, h := range categoryRequestHandlers {
+		if string(h.Type) == typeStr {
+			return &h
+		}
+	}
+	return nil
+}
+
 func mapToStruct(m map[string]interface{}, out interface{}) error {
 	b, err := json.Marshal(m)
 	if err != nil {
 		return err
 	}
 	return json.Unmarshal(b, out)
-}
-
-func (cr FoodsCategoryRequest) ToCategory() category.FoodsCategory {
-	sizes := make([]category.Size, len(cr.Sizes))
-	for i, s := range cr.Sizes {
-		sizes[i] = category.Size{
-			ID:   s.ID,
-			Name: s.Name,
-		}
-	}
-	askGroups := make([]category.AskGroup, len(cr.AskGroups))
-	for i, ag := range cr.AskGroups {
-		options := make([]category.AskGroupOption, len(ag.Options))
-		for j, o := range ag.Options {
-			options[j] = category.AskGroupOption{
-				ID:          o.ID,
-				Name:        o.Name,
-				Description: o.Description,
-				Value:       o.Value,
-			}
-		}
-		askGroups[i] = category.AskGroup{
-			ID:           ag.ID,
-			Group:        ag.Group,
-			MinimunLimit: ag.MinimunLimit,
-			MaximunLimit: ag.MaximunLimit,
-			Options:      options,
-		}
-	}
-	return category.FoodsCategory{
-		Type:        cr.Type,
-		StoreId:     cr.StoreId,
-		ID:          cr.ID,
-		Name:        cr.Name,
-		Description: cr.Description,
-		Culinary:    cr.Culinary,
-		Sizes:       sizes,
-		AskGroups:   askGroups,
-	}
-}
-
-func (cr MaketCategoryRequest) ToCategory() category.MaketCategory {
-	return category.MaketCategory{
-		Type:        cr.Type,
-		ID:          cr.ID,
-		Name:        cr.Name,
-		Section:     cr.Section,
-		Description: cr.Description,
-	}
-}
-
-func (cr ScheduledCategoryRequest) ToCategory() category.SchedulCategory {
-	schedul := make([]category.Schedul, len(cr.Schedul))
-	for i, s := range cr.Schedul {
-		schedul[i] = category.Schedul{
-			Day:   s.Day,
-			Hours: s.Hours,
-		}
-	}
-	return category.SchedulCategory{
-		Type:        cr.Type,
-		ID:          cr.ID,
-		Name:        cr.Name,
-		Description: cr.Description,
-		Schedul:     schedul,
-	}
-}
-
-func (cr SlicedFoodsCategoryRequest) ToCategory() category.SlicedFoodsCategory {
-	sizes := make([]category.SizeFlavor, len(cr.Sizes))
-	for i, s := range cr.Sizes {
-		sizes[i] = category.SizeFlavor{
-			ID:          s.ID,
-			Name:        s.Name,
-			MaxFlavours: s.MaxFlavours,
-		}
-	}
-	askGroups := make([]category.AskGroup, len(cr.AskGroups))
-	for i, ag := range cr.AskGroups {
-		options := make([]category.AskGroupOption, len(ag.Options))
-		for j, o := range ag.Options {
-			options[j] = category.AskGroupOption{
-				ID:          o.ID,
-				Name:        o.Name,
-				Description: o.Description,
-				Value:       o.Value,
-			}
-		}
-		askGroups[i] = category.AskGroup{
-			ID:           ag.ID,
-			Group:        ag.Group,
-			MinimunLimit: ag.MinimunLimit,
-			MaximunLimit: ag.MaximunLimit,
-			Options:      options,
-		}
-	}
-	return category.SlicedFoodsCategory{
-		Type:        cr.Type,
-		StoreId:     cr.StoreId,
-		ID:          cr.ID,
-		Name:        cr.Name,
-		Description: cr.Description,
-		Sizes:       sizes,
-		AskGroups:   askGroups,
-	}
 }
