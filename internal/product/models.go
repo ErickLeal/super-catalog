@@ -1,8 +1,11 @@
 package product
 
+import "go.mongodb.org/mongo-driver/bson/primitive"
+
 type CategoryProduct struct {
-	ID   string `bson:"id" json:"id"`
-	Type string `bson:"type" json:"type"`
+	MongoId primitive.ObjectID `bson:"_id" json:"-"`
+	ID      string             `bson:"id" json:"id"`
+	Type    string             `bson:"type" json:"type"`
 }
 
 type Adittional struct {
@@ -21,7 +24,7 @@ type ProductDetail struct {
 
 type ProductFoods struct {
 	Category          CategoryProduct `bson:"category" json:"category"`
-	ID                string          `bson:"id,omitempty" json:"id"`
+	ID                string          `bson:"id" json:"id"`
 	Name              string          `bson:"name" json:"name"`
 	Description       string          `bson:"description" json:"description"`
 	Value             int64           `bson:"value" json:"value"`
@@ -34,7 +37,7 @@ type ProductFoods struct {
 
 type ProductMarket struct {
 	Category          CategoryProduct `bson:"category" json:"category"`
-	ID                string          `bson:"id,omitempty" json:"id"`
+	ID                string          `bson:"id" json:"id"`
 	Name              string          `bson:"name" json:"name"`
 	Description       string          `bson:"description" json:"description"`
 	Value             int64           `bson:"value" json:"value"`
@@ -47,7 +50,7 @@ type ProductMarket struct {
 
 type ProductScheduled struct {
 	Category          CategoryProduct `bson:"category" json:"category"`
-	ID                string          `bson:"id,omitempty" json:"id"`
+	ID                string          `bson:"id" json:"id"`
 	Name              string          `bson:"name" json:"name"`
 	Description       string          `bson:"description" json:"description"`
 	Value             int64           `bson:"value" json:"value"`

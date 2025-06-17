@@ -2,22 +2,15 @@ package handlers
 
 import (
 	"context"
-	"encoding/json"
 	"net/http"
 	"time"
 
+	"super-catalog/cmd/helpers"
 	"super-catalog/cmd/requests"
 	"super-catalog/internal/category"
 
 	"github.com/gin-gonic/gin"
-	"github.com/go-playground/validator/v10"
 )
-
-var validate = validator.New()
-
-func validateCategoryRequest(req interface{}) error {
-	return validate.Struct(req)
-}
 
 type categoryRequestHandler struct {
 	Type      category.CategoryType
@@ -31,13 +24,13 @@ var categoryRequestHandlers = []categoryRequestHandler{
 		Type: category.CategoryTypeFoods,
 		Unmarshal: func(raw map[string]interface{}) (interface{}, error) {
 			var req requests.FoodsCategoryRequest
-			if err := mapToStruct(raw, &req); err != nil {
+			if err := helpers.MapToStruct(raw, &req); err != nil {
 				return nil, err
 			}
 			return req, nil
 		},
 		Validate: func(req interface{}) error {
-			return validateCategoryRequest(req)
+			return helpers.ValidateRequest(req)
 		},
 		ToModel: func(req interface{}) interface{} {
 			return req.(requests.FoodsCategoryRequest).ToCategory()
@@ -47,13 +40,13 @@ var categoryRequestHandlers = []categoryRequestHandler{
 		Type: category.CategorySlicedFoods,
 		Unmarshal: func(raw map[string]interface{}) (interface{}, error) {
 			var req requests.SlicedFoodsCategoryRequest
-			if err := mapToStruct(raw, &req); err != nil {
+			if err := helpers.MapToStruct(raw, &req); err != nil {
 				return nil, err
 			}
 			return req, nil
 		},
 		Validate: func(req interface{}) error {
-			return validateCategoryRequest(req)
+			return helpers.ValidateRequest(req)
 		},
 		ToModel: func(req interface{}) interface{} {
 			return req.(requests.SlicedFoodsCategoryRequest).ToCategory()
@@ -63,13 +56,13 @@ var categoryRequestHandlers = []categoryRequestHandler{
 		Type: category.CategoryTypeMarket,
 		Unmarshal: func(raw map[string]interface{}) (interface{}, error) {
 			var req requests.MaketCategoryRequest
-			if err := mapToStruct(raw, &req); err != nil {
+			if err := helpers.MapToStruct(raw, &req); err != nil {
 				return nil, err
 			}
 			return req, nil
 		},
 		Validate: func(req interface{}) error {
-			return validateCategoryRequest(req)
+			return helpers.ValidateRequest(req)
 		},
 		ToModel: func(req interface{}) interface{} {
 			return req.(requests.MaketCategoryRequest).ToCategory()
@@ -79,13 +72,13 @@ var categoryRequestHandlers = []categoryRequestHandler{
 		Type: category.CategoryTypeScheduled,
 		Unmarshal: func(raw map[string]interface{}) (interface{}, error) {
 			var req requests.ScheduledCategoryRequest
-			if err := mapToStruct(raw, &req); err != nil {
+			if err := helpers.MapToStruct(raw, &req); err != nil {
 				return nil, err
 			}
 			return req, nil
 		},
 		Validate: func(req interface{}) error {
-			return validateCategoryRequest(req)
+			return helpers.ValidateRequest(req)
 		},
 		ToModel: func(req interface{}) interface{} {
 			return req.(requests.ScheduledCategoryRequest).ToCategory()
@@ -140,12 +133,4 @@ func getCategoryRequestHandler(typeStr string) *categoryRequestHandler {
 		}
 	}
 	return nil
-}
-
-func mapToStruct(m map[string]interface{}, out interface{}) error {
-	b, err := json.Marshal(m)
-	if err != nil {
-		return err
-	}
-	return json.Unmarshal(b, out)
 }

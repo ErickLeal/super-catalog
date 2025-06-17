@@ -34,7 +34,7 @@ type Schedul struct {
 type FoodsCategory struct {
 	Type        string     `bson:"type" json:"type"`
 	StoreId     string     `bson:"store_id" json:"store_id"`
-	ID          string     `bson:"_id,omitempty" json:"id"`
+	ID          string     `bson:"id" json:"id"`
 	Name        string     `bson:"name" json:"name"`
 	Description string     `bson:"description" json:"description"`
 	Culinary    string     `bson:"culinary" json:"culinary"`
@@ -45,7 +45,7 @@ type FoodsCategory struct {
 type SlicedFoodsCategory struct {
 	Type        string       `bson:"type" json:"type"`
 	StoreId     string       `bson:"store_id" json:"store_id"`
-	ID          string       `bson:"_id,omitempty" json:"id"`
+	ID          string       `bson:"id" json:"id"`
 	Name        string       `bson:"name" json:"name"`
 	Description string       `bson:"description" json:"description"`
 	Sizes       []SizeFlavor `bson:"sizes" json:"sizes"`
@@ -54,7 +54,7 @@ type SlicedFoodsCategory struct {
 
 type MaketCategory struct {
 	Type        string `bson:"type" json:"type"`
-	ID          string `bson:"_id,omitempty" json:"id"`
+	ID          string `bson:"id" json:"id"`
 	Name        string `bson:"name" json:"name"`
 	Section     string `bson:"section" json:"section"`
 	Description string `bson:"description" json:"description"`
@@ -62,7 +62,7 @@ type MaketCategory struct {
 
 type SchedulCategory struct {
 	Type        string    `bson:"type" json:"type"`
-	ID          string    `bson:"_id,omitempty" json:"id"`
+	ID          string    `bson:"id" json:"id"`
 	Name        string    `bson:"name" json:"name"`
 	Description string    `bson:"description" json:"description"`
 	Schedul     []Schedul `bson:"schedul" json:"schedul"`
