@@ -2,16 +2,27 @@
     "id":"ID DO INTEGRADOR",
     "name": "",
     "description": "",
-    "enabled": true,
-    "sku": "",
-    "value": 4500,
-    "promotional_value": 4000,
+    "value": 45.00,
     "inventory_quantity": 0,
     "is_inventory_active": false,
-    "images_url": [],
     "product_details": [
         {"name": "author", "value": "J.R.R. Tolkien"},
         {"name": "publisher", "value": "HarperCollins"},
         {"name": "pages", "value": "480"}
-    ]
+    ],
+    //FOODS
+    "tags": ["PIZZA", "SALGADA"],
+
+    "additional":[
+        {"product_id":5}, {"product_id":6}
+    ],
+    //MARKET
+    "unit": {
+        "name": "UN",
+        "value": 1.0
+    },
+    "ean_code"
+
+    //SCHEDULED_PRODUCTS
+    "fictional_field":true
 }
