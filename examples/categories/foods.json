@@ -1,0 +1,63 @@
+{
+    "type":"FOODS",
+    "id": "código do integrador",
+    "name":"Sanbubas frios",
+    "description":"eat fresh",
+    "status":1,
+    "culinary":"",
+    
+    //Daqui pra baixo conversar sobre
+    "sizes":[
+        {
+            "id":"código do integrador",
+            "name":"P"
+        },
+        {
+            "id":"código do integrador",
+            "name":"G"
+        }
+    ],
+    "ask_groups":[
+        { 
+            "id":"código do integrador",
+            "group":"Precisa de talher?",
+            "minimun_limit": 1,
+            "maximun_limit": 1,
+            "options":[
+                {
+                    "id":"código do integrador",
+                    "name": "Não",
+                    "description":"Não",
+                    "value":0
+                },
+                {
+                    "id":"código do integrador",
+                    "name": "Sim",
+                    "description":"Sim",
+                    "value":10
+                }
+            ]
+        },
+        {
+            "id":"código do integrador",
+            "group":"Deseja acompanhamento?",
+            "min_limit": 0,
+            "max_limit": 2,
+            "options": [
+                {
+                    "id":"código do integrador",
+                    "name": "Molho da casa",
+                    "description":"",
+                    "value":200
+                },
+                {
+                   "id":"código do integrador",
+                    "name": "Molho de pimenta",
+                    "description":"",
+                    "value":300
+                }
+            ]
+        }
+    ]
+
+}

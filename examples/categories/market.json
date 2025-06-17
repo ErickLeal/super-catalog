@@ -1,0 +1,21 @@
+//COMO É HOJE
+
+{
+    "id": 1388291,
+    "name": "pães",
+    "description": null,
+    "parent_id": "123 (mercearia)",
+    "culinary_id": 713
+}
+
+
+//PROPOSTO
+[
+    {
+        "type":"MARKET",
+        "id": "código pre definido do aiq",
+        "name": "pães",
+        "section":"mercearia",
+        "description": null,
+    }
+]

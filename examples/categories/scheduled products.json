@@ -1,0 +1,12 @@
+{
+    "type":"SCHEDULED_PRODUCTS",
+    "id": "entender se criamos ou se deixamos criar",
+    "name": "Agendamento",
+    //PODE FICAR NO ITEM?
+    "schedul":[
+        {
+            "day":"MONDAY",
+            "hours":"08:30 - 17:30"
+        }
+    ]
+}

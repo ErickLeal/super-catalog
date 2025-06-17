@@ -1,0 +1,32 @@
+[
+    {
+        "tipo":"Foods",
+        "descrição":
+        "itens de restaurante"
+    },
+    {
+        "tipo":"Sliced foods",
+        "descrição":
+        "itens com frações, pizza, tortas, etc"
+    },
+    {
+        "tipo":"Market",
+        "descrição":
+        "item padrão de mercado, com unidade, ean, etc"
+    },
+    {
+        "tipo":"Weight market",
+        "descrição":
+        "regras específicas para produtos pesáveis"
+    },
+    {
+        "tipo":"scheduled products",
+        "descrição":
+        "regras hipotéticas para agendamento pista de skate, etc"
+    },
+    {
+        "tipo":"Open mix",
+        "descrição":
+        "tem todos os campos possíveis de todas as opções, mas nesse caso não validamos a obrigação nem conferimos regras especificas"
+    }
+]

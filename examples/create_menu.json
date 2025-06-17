@@ -1,0 +1,17 @@
+[
+    {
+        "category_id":"FOODS",
+        "product_id":"1",
+        "additional":[
+            {"product_id":5}, {"product_id":6}
+        ]
+    },
+    {
+        "category_id":"MARKET(Mercearia)",
+        "product_id":"2"
+    },
+    {
+        "category_id":"OPEN MIX",
+        "product_id":"7"
+    }
+]

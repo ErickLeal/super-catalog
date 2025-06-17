@@ -1,0 +1,34 @@
+{
+    "type":"SLICED_FOODS",
+    "id": "código do integrador",
+    "name":"Pizza Pizzo",
+    "description":"",
+    "status":1,
+    "sizes":[
+        {
+            "id":"código do integrador",
+            "name":"MINI PIZZA",
+            "max_flavors":2
+        },
+        {
+            "id":"código do integrador",
+            "name":"SUPER PIZZA",
+            "max_flavors":4
+        }
+    ],
+    "ask_groups":[
+        {
+            "id":"código do integrador",
+            "name": "Escolha a Borda",
+            "order": 1,
+            "minimum_limit": 1,
+            "maximum_limit": 1,
+            "item": [
+                {"id": "BORDA-TRADICIONAL", "name": "Borda Tradicional", "description": "", "value": 0},
+                {"id": "BORDA-CHEDDAR", "name": "Borda de Cheddar", "description": "", "value": 500},
+                {"id": "BORDA-CATUPIRY", "name": "Borda de Catupiry", "description": "", "value": 500}
+            ]
+        }
+    ]
+
+}
