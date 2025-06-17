@@ -1,0 +1,17 @@
+{
+    "id":"ID DO INTEGRADOR",
+    "name": "",
+    "description": "",
+    "enabled": true,
+    "sku": "",
+    "value": 4500,
+    "promotional_value": 4000,
+    "inventory_quantity": 0,
+    "is_inventory_active": false,
+    "images_url": [],
+    "product_details": [
+        {"name": "author", "value": "J.R.R. Tolkien"},
+        {"name": "publisher", "value": "HarperCollins"},
+        {"name": "pages", "value": "480"}
+    ]
+}

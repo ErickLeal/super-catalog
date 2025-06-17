@@ -5,11 +5,6 @@ import (
 	"super-catalog/internal/infra"
 )
 
-type Category struct {
-	ID   string `bson:"_id,omitempty"`
-	Name string `bson:"name"`
-}
-
 func InsertCategories(ctx context.Context, categories []Category) error {
 	coll, err := infra.GetCollection("supercatalog", "categories")
 	if err != nil {

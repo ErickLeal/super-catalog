@@ -1,0 +1,48 @@
+{
+    "type":"MARKET",
+    "id": "código pre definido do aiq",
+    "name": "pães",
+    "section":"mercearia",
+    "description": null,
+
+    "culinary":"",
+
+    "sizes":[
+        {
+            "id":"código do integrador",
+            "name":"P"
+        },
+        {
+            "id":"código do integrador",
+            "name":"G"
+        }
+    ],
+     "ask_groups":[
+        { 
+            "id":"código do integrador",
+            "group":"Precisa de talher?",
+            "minimun_limit": 1,
+            "maximun_limit": 1,
+            "options":[
+                {
+                    "id":"código do integrador",
+                    "name": "Não",
+                    "description":"Não",
+                    "value":0
+                },
+                {
+                    "id":"código do integrador",
+                    "name": "Sim",
+                    "description":"Sim",
+                    "value":10
+                }
+            ]
+        }
+    ],
+      "schedul":[
+        {
+            "day":"MONDAY",
+            "hours":"08:30 - 17:30"
+        }
+    ]
+}

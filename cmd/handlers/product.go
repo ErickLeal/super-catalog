@@ -10,15 +10,45 @@ import (
 	"github.com/gin-gonic/gin"
 )
 
+type ProductDetailRequest struct {
+	Name  string `json:"name"`
+	Value string `json:"value"`
+}
+
 type ProductRequest struct {
-	Name  string  `json:"name"`
-	Price float64 `json:"price"`
+	ID                string                 `json:"id"`
+	Name              string                 `json:"name"`
+	Description       string                 `json:"description"`
+	Enabled           bool                   `json:"enabled"`
+	SKU               string                 `json:"sku"`
+	Value             int64                  `json:"value"`
+	PromotionalValue  int64                  `json:"promotional_value"`
+	InventoryQuantity int                    `json:"inventory_quantity"`
+	IsInventoryActive bool                   `json:"is_inventory_active"`
+	ImagesURL         []string               `json:"images_url"`
+	ProductDetails    []ProductDetailRequest `json:"product_details"`
 }
 
 func (pr ProductRequest) ToProduct() product.Product {
+	productDetails := make([]product.ProductDetail, len(pr.ProductDetails))
+	for i, d := range pr.ProductDetails {
+		productDetails[i] = product.ProductDetail{
+			Name:  d.Name,
+			Value: d.Value,
+		}
+	}
 	return product.Product{
-		Name:  pr.Name,
-		Price: pr.Price,
+		ID:                pr.ID,
+		Name:              pr.Name,
+		Description:       pr.Description,
+		Enabled:           pr.Enabled,
+		SKU:               pr.SKU,
+		Value:             pr.Value,
+		PromotionalValue:  pr.PromotionalValue,
+		InventoryQuantity: pr.InventoryQuantity,
+		IsInventoryActive: pr.IsInventoryActive,
+		ImagesURL:         pr.ImagesURL,
+		ProductDetails:    productDetails,
 	}
 }
 
