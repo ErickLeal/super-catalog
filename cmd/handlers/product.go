@@ -71,6 +71,22 @@ var productRequestHandlers = []productRequestHandler{
 			return req.(requests.ProductScheduledRequest).ToModel(cat)
 		},
 	},
+	{
+		Type: string(category.CategoryTypeOpen),
+		Unmarshal: func(raw map[string]interface{}) (interface{}, error) {
+			var req requests.ProductOpenRequest
+			if err := helpers.MapToStruct(raw, &req); err != nil {
+				return nil, err
+			}
+			return req, nil
+		},
+		Validate: func(req interface{}) error {
+			return helpers.ValidateRequest(req)
+		},
+		ToModel: func(req interface{}, cat map[string]interface{}) interface{} {
+			return req.(requests.ProductOpenRequest).ToModel(cat)
+		},
+	},
 }
 
 func processProduct(ctx context.Context, raw map[string]interface{}, i int) (interface{}, error) {

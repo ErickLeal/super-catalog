@@ -84,6 +84,22 @@ var categoryRequestHandlers = []categoryRequestHandler{
 			return req.(requests.ScheduledCategoryRequest).ToCategory()
 		},
 	},
+	{
+		Type: category.CategoryTypeOpen,
+		Unmarshal: func(raw map[string]interface{}) (interface{}, error) {
+			var req requests.OpenCategoryRequest
+			if err := helpers.MapToStruct(raw, &req); err != nil {
+				return nil, err
+			}
+			return req, nil
+		},
+		Validate: func(req interface{}) error {
+			return helpers.ValidateRequest(req)
+		},
+		ToModel: func(req interface{}) interface{} {
+			return req.(requests.OpenCategoryRequest).ToCategory()
+		},
+	},
 }
 
 func CreateCategoryHandler(c *gin.Context) {

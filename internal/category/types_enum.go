@@ -7,4 +7,5 @@ const (
 	CategorySlicedFoods   CategoryType = "SLICED_FOODS"
 	CategoryTypeMarket    CategoryType = "MARKET"
 	CategoryTypeScheduled CategoryType = "SCHEDULED"
+	CategoryTypeOpen      CategoryType = "OPEN"
 )

@@ -16,8 +16,8 @@ type AdditionalRequest struct {
 }
 
 type UnitRequest struct {
-	Name  string `json:"name" validate:"required,max=100"`
-	Value int64  `json:"value" validate:"required,min=0"`
+	Name  string `json:"name" validate:"max=100"`
+	Value int64  `json:"value" validate:"min=0"`
 }
 
 type BaseProductRequest struct {
@@ -29,6 +29,15 @@ type BaseProductRequest struct {
 	InventoryQuantity int                    `json:"inventory_quantity" validate:"required,min=0"`
 	IsInventoryActive bool                   `json:"is_inventory_active" validate:"required"`
 	ProductDetails    []ProductDetailRequest `json:"product_details" validate:"dive"`
+}
+
+type ProductOpenRequest struct {
+	BaseProductRequest
+	Tags           []string            `json:"tags" validate:"dive,max=50"`
+	Adittionals    []AdditionalRequest `json:"adittionals" validate:"dive"`
+	EanCode        string              `json:"ean_code" validate:"max=50"`
+	Unit           UnitRequest         `json:"unit"`
+	FictionalField string              `json:"fictional_field" validate:"max=100"`
 }
 
 type ProductFoodsRequest struct {
@@ -65,6 +74,37 @@ func (r UnitRequest) ToModel() product.Unit {
 	return product.Unit{
 		Name:  r.Name,
 		Value: r.Value,
+	}
+}
+
+func (r ProductOpenRequest) ToModel(cat map[string]interface{}) product.ProductOpen {
+
+	productDetails := make([]product.ProductDetail, len(r.ProductDetails))
+	for i, d := range r.ProductDetails {
+		productDetails[i] = d.ToModel()
+	}
+	adittionals := make([]product.Adittional, len(r.Adittionals))
+	for i, a := range r.Adittionals {
+		adittionals[i] = a.ToModel()
+	}
+	return product.ProductOpen{
+		Category: product.CategoryProduct{
+			MongoId: cat["_id"].(primitive.ObjectID),
+			ID:      cat["id"].(string),
+			Type:    cat["type"].(string),
+		},
+		ID:                r.ID,
+		Name:              r.Name,
+		Description:       r.Description,
+		Value:             r.Value,
+		InventoryQuantity: r.InventoryQuantity,
+		IsInventoryActive: r.IsInventoryActive,
+		ProductDetails:    productDetails,
+		Tags:              r.Tags,
+		Adittionals:       adittionals,
+		EanCode:           r.EanCode,
+		Unit:              r.Unit.ToModel(),
+		FictionalField:    r.FictionalField,
 	}
 }
 

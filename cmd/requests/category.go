@@ -36,7 +36,7 @@ type SchedulRequest struct {
 }
 
 type BaseCategoryRequest struct {
-	Type        string `json:"type" validate:"required,oneof=FOODS MARKET SCHEDULED SLICED_FOODS"`
+	Type        string `json:"type" validate:"required,oneof=FOODS MARKET SCHEDULED SLICED_FOODS OPEN"`
 	ID          string `json:"id" validate:"required,max=50"`
 	Name        string `json:"name" validate:"required,max=100"`
 	Description string `json:"description" validate:"max=255"`
@@ -65,6 +65,66 @@ type MaketCategoryRequest struct {
 type ScheduledCategoryRequest struct {
 	BaseCategoryRequest
 	Schedul []SchedulRequest `json:"schedul" validate:"dive,required"`
+}
+
+type OpenCategoryRequest struct {
+	BaseCategoryRequest
+	Section   string            `json:"section" validate:"max=100"`
+	Culinary  string            `json:"culinary" validate:"max=100"`
+	StoreId   string            `json:"store_id" validate:"required,max=50"`
+	Sizes     []SizeRequest     `json:"sizes" validate:"dive"`
+	AskGroups []AskGroupRequest `json:"ask_groups" validate:"dive"`
+	Schedul   []SchedulRequest  `json:"schedul" validate:"dive"`
+}
+
+func (cr OpenCategoryRequest) ToCategory() category.OpenCategory {
+	sizes := make([]category.Size, len(cr.Sizes))
+	for i, s := range cr.Sizes {
+		sizes[i] = category.Size{
+			ID:   s.ID,
+			Name: s.Name,
+		}
+	}
+	askGroups := make([]category.AskGroup, len(cr.AskGroups))
+	for i, ag := range cr.AskGroups {
+		options := make([]category.AskGroupOption, len(ag.Options))
+		for j, o := range ag.Options {
+			options[j] = category.AskGroupOption{
+				ID:          o.ID,
+				Name:        o.Name,
+				Description: o.Description,
+				Value:       o.Value,
+			}
+		}
+		askGroups[i] = category.AskGroup{
+			ID:           ag.ID,
+			Group:        ag.Group,
+			MinimunLimit: ag.MinimunLimit,
+			MaximunLimit: ag.MaximunLimit,
+			Options:      options,
+		}
+	}
+
+	schedul := make([]category.Schedul, len(cr.Schedul))
+	for i, s := range cr.Schedul {
+		schedul[i] = category.Schedul{
+			Day:   s.Day,
+			Hours: s.Hours,
+		}
+	}
+
+	return category.OpenCategory{
+		Type:        cr.Type,
+		StoreId:     cr.StoreId,
+		ID:          cr.ID,
+		Name:        cr.Name,
+		Description: cr.Description,
+		Culinary:    cr.Culinary,
+		Sizes:       sizes,
+		AskGroups:   askGroups,
+		Section:     cr.Section,
+		Schedul:     schedul,
+	}
 }
 
 func (cr FoodsCategoryRequest) ToCategory() category.FoodsCategory {

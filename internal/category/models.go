@@ -67,3 +67,16 @@ type SchedulCategory struct {
 	Description string    `bson:"description" json:"description"`
 	Schedul     []Schedul `bson:"schedul" json:"schedul"`
 }
+
+type OpenCategory struct {
+	Type        string     `bson:"type" json:"type"`
+	StoreId     string     `bson:"store_id" json:"store_id"`
+	ID          string     `bson:"id" json:"id"`
+	Name        string     `bson:"name" json:"name"`
+	Section     string     `bson:"section" json:"section"`
+	Description string     `bson:"description" json:"description"`
+	Culinary    string     `bson:"culinary" json:"culinary"`
+	Sizes       []Size     `bson:"sizes" json:"sizes"`
+	AskGroups   []AskGroup `bson:"ask_groups" json:"ask_groups"`
+	Schedul     []Schedul  `bson:"schedul" json:"schedul"`
+}

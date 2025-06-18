@@ -1,0 +1,18 @@
+[
+   {
+    "category_id": "5",
+    "id": "prod-001",
+    "name": "Sorvete agendado",
+    "description": "Uma ideia diferenciada",
+    "value": 20000,
+    "inventory_quantity": 100,
+    "is_inventory_active": true,
+    "fictional_field": "Agendamento especial",
+    "ean_code":"77777",
+    "adittionals":[
+        {
+            "product_id":"2"
+        }
+    ]
+  }
+]

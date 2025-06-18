@@ -22,6 +22,22 @@ type ProductDetail struct {
 	Value int64  `bson:"value" json:"value"`
 }
 
+type ProductOpen struct {
+	Category          CategoryProduct `bson:"category" json:"category"`
+	ID                string          `bson:"id" json:"id"`
+	Name              string          `bson:"name" json:"name"`
+	Description       string          `bson:"description" json:"description"`
+	Value             int64           `bson:"value" json:"value"`
+	InventoryQuantity int             `bson:"inventory_quantity" json:"inventory_quantity"`
+	IsInventoryActive bool            `bson:"is_inventory_active" json:"is_inventory_active"`
+	ProductDetails    []ProductDetail `bson:"product_details" json:"product_details"`
+	Tags              []string        `bson:"tags" json:"tags"`
+	Adittionals       []Adittional    `bson:"adittionals" json:"adittionals"`
+	EanCode           string          `bson:"ean_code" json:"ean_code"`
+	Unit              Unit            `bson:"unit" json:"unit"`
+	FictionalField    string          `bson:"fictional_field" json:"fictional_field"`
+}
+
 type ProductFoods struct {
 	Category          CategoryProduct `bson:"category" json:"category"`
 	ID                string          `bson:"id" json:"id"`
