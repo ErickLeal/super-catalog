@@ -161,23 +161,42 @@ func CreateProductHandler(c *gin.Context) {
 	}
 	close(jobs)
 
-	products := make([]interface{}, len(rawProducts))
+	products := make([]interface{}, 0, len(rawProducts))
+	errors := make([]map[string]interface{}, 0)
+	successCount := 0
+	errorCount := 0
+
 	numResults := 0
 	for numResults < len(rawProducts) {
 		res := <-results
 		numResults++
 		if res.Err != nil {
-			c.JSON(http.StatusBadRequest, gin.H{"error": res.Err.Error(), "index": res.Idx})
-			return
+			errors = append(errors, map[string]interface{}{
+				"index": res.Idx,
+				"error": res.Err.Error(),
+			})
+			errorCount++
+			continue
 		}
-		products[res.Idx] = res.Product
+		products = append(products, res.Product)
+		successCount++
 	}
 
-	if err := product.InsertProducts(ctx, products); err != nil {
-		c.JSON(http.StatusInternalServerError, gin.H{"error": "Failed to save products", "message": err.Error()})
-		return
+	if len(products) > 0 {
+		if err := product.InsertProducts(ctx, products); err != nil {
+			c.JSON(http.StatusInternalServerError, gin.H{"error": "Failed to save products", "message": err.Error()})
+			return
+		}
 	}
-	c.JSON(http.StatusCreated, products)
+
+	resp := gin.H{
+		"success_count": successCount,
+		"error_count":   errorCount,
+	}
+	if errorCount > 0 {
+		resp["errors"] = errors
+	}
+	c.JSON(http.StatusOK, resp)
 }
 
 // Gera 100 registros de cada tipo e salva em examples/products_100_each_type.json

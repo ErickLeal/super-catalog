@@ -113,6 +113,30 @@
                 ]
             }
         ]
-
-    }
+    },
+     {
+        "type":"OPEN",
+        "id": "5",
+        "store_id":"123",
+        "status":1,
+        "name":"Free Açai Promotion",
+        "description":"padaria",
+        "schedul":[
+            {
+                "day":"MONDAY",
+                "hours":"08:30 - 17:30"
+            }
+        ],
+        "culinary":"Sorvetes",
+        "sizes":[
+            {
+                "id":"1",
+                "name":"300Ml"
+            },
+            {
+                "id":"2",
+                "name":"500Ml"
+            }
+        ]
+   }
 ]
